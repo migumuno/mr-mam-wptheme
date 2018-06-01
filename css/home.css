@@ -3,7 +3,7 @@
 }
 
 #welcome .welcome-wrapper__text {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 #welcome .welcome-wrapper__text p {
@@ -24,6 +24,6 @@
 /* Para escritorios large */
 @media (min-width: 1200px) {
     #welcome .welcome-wrapper__text {
-        margin-top: 150px;
+        margin-top: 200px;
     }
 }
