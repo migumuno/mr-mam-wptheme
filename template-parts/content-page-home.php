@@ -81,7 +81,7 @@
 							request.onload = () => {
 								const clients = request.response;
 								clients.forEach(client => {
-									lista_clientes.append = '<li class="work-wrapper__clients-list__item">' + client.name + '</li>';
+									lista_clientes.append('<li class="work-wrapper__clients-list__item">' + client.name + '</li>');
 								});
 							}
 						}
