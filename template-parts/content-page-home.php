@@ -71,9 +71,10 @@
 				<ul id="lista_clientes" class="work-wrapper__clients-list">
 					<script>
 						const lista_clientes = document.getElementById('lista_clientes');
-						const clientes = JSON.parse(jQuery.getJSON(<?=get_stylesheet_directory_uri() . '/json/clients.json'?>));
+						const clientes = jQuery.getJSON(<?=get_stylesheet_directory_uri() . '/json/clients.json'?>);
+						console.log(clientes);
 
-						clients.forEach(client => {
+						clientes.forEach(client => {
 							console.log(client.name);
 						});
 					</script>
