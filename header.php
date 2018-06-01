@@ -22,20 +22,23 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<section id="header" class="container-header">
+	<section id="menu">
+		<nav>
+			<?php
+			wp_nav_menu( array(
+				'theme_location' => 'menu-1',
+				'menu_id'        => 'primary-menu',
+			) );
+			?>
+		</nav>
+	</section>
+	<section id="header" class="container-fluid">
 		<div class="row container">
-			<div class="col-md-4 header__logo">
-				<h1>Miguel Ángel <b>Muñoz Viejo</b></h1>
+			<div class="col-md-6 header__logo">
+				<h1>< Mr. Mam ></h1>
 			</div>
-			<div class="col-md-8 header__menu hidden-xs hidden-sm">
-				<nav>
-					<?php
-					wp_nav_menu( array(
-						'theme_location' => 'menu-1',
-						'menu_id'        => 'primary-menu',
-					) );
-					?>
-				</nav>
+			<div class="col-md-6 header__menu">
+				<span>☰ Menú</span>
 			</div>
 		</div>
 	</section>
