@@ -71,13 +71,10 @@
 				<ul id="lista_clientes" class="work-wrapper__clients-list">
 					<script>
 						var lista_clientes = document.getElementById('lista_clientes');
-						var clientes = jQuery.getJSON("<?=get_stylesheet_directory_uri() . '/json/clients.json'?>");
-						console.log(clientes);
-						var clientes_arr = JSON.parse(clientes);
-						console.log(clientes_arr);
-
-						clientes_arr.forEach(client => {
-							console.log(client.name);
+						jQuery.getJSON("<?=get_stylesheet_directory_uri() . '/json/clients.json'?>", data => {
+							data.forEach(client => {
+								console.log(client.name);
+							});
 						});
 					</script>
 					<li class="work-wrapper__clients-list__item">a</li>
