@@ -124,6 +124,8 @@ function mr_mam_scripts() {
 
 	$version = filemtime( dirname(__FILE__) . '/css/grid.css' );
 	wp_enqueue_style( 'mr-mam-grid', get_template_directory_uri() . '/css/grid.css', array( 'mr-mam-style' ), $version );
+	$version = filemtime( dirname(__FILE__) . '/css/custom.css' );
+	wp_enqueue_style( 'mr-mam-custom', get_template_directory_uri() . '/css/custom.css', array( 'mr-mam-style' ), $version );
 
 	wp_enqueue_script( 'mr-mam-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
