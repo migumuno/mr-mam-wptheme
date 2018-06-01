@@ -70,21 +70,25 @@
 				<h3>Algunos clientes</h3>
 				<ul id="lista_clientes" class="work-wrapper__clients-list">
 					<script>
-						console.log('Holi');
-						const lista_clientes = document.getElementById('lista_clientes');
-						const clients_json = "<?=get_stylesheet_directory_uri() . '/json/clients.json'?>";
-						var request = new XMLHttpRequest();
-						
-						request.open( 'GET', clients_json );
-						request.responseType = 'json';
-						request.send();
-						request.onload = () => {
-							const clients = request.response;
-							console.log(clients);
-							clients.forEach(client => {
-								console.log( client.name );
-							});
+						function getClients() {
+							console.log('Holi');
+							const lista_clientes = document.getElementById('lista_clientes');
+							const clients_json = "<?=get_stylesheet_directory_uri() . '/json/clients.json'?>";
+							var request = new XMLHttpRequest();
+							
+							request.open( 'GET', clients_json );
+							request.responseType = 'json';
+							request.send();
+							request.onload = () => {
+								const clients = request.response;
+								console.log(clients);
+								clients.forEach(client => {
+									console.log( client.name );
+								});
+							}
 						}
+						
+						getClients();
 					</script>
 					<li class="work-wrapper__clients-list__item">a</li>
 					<li class="work-wrapper__clients-list__item">b</li>
