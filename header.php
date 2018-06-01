@@ -22,8 +22,8 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<section id="header" class="container">
-		<div class="row">
+	<section id="header" class="container-fluid">
+		<div class="row container">
 			<div class="col-md-6 header__logo">
 				<h1>< Mr. Mam ></h1>
 			</div>
