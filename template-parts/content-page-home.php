@@ -79,6 +79,7 @@
 						request.send();
 						request.onload = () => {
 							const clients = request.response;
+							console.log(clients);
 							clients.forEach(client => {
 								console.log( client.name );
 							});
