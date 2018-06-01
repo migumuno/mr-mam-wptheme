@@ -122,6 +122,9 @@ add_action( 'widgets_init', 'mr_mam_widgets_init' );
 function mr_mam_scripts() {
 	wp_enqueue_style( 'mr-mam-style', get_stylesheet_uri() );
 
+	$version = filemtime( dirname(__FILE__) . '/css/grid.css' );
+	wp_enqueue_style( 'mr-mam-grid', get_stylesheet_uri() . '/css/grid.css', array( 'mr-mam-style' ), $version );
+
 	wp_enqueue_script( 'mr-mam-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'mr-mam-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );
