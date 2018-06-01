@@ -22,7 +22,7 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<section id="header" class="container-fluid header-background">
+	<section id="header">
 		<div class="row container">
 			<div class="col-md-4 header__logo">
 				<h1>Miguel Ángel <b>Muñoz Viejo</b></h1>

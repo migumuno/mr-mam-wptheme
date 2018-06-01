@@ -59,7 +59,11 @@ table {
 }
 
 .container-fluid {
-	width: 100%;
+    width: 100%;
+}
+
+.container-header {
+    width: 100%;
 }
 
 @media (max-width: 1279px) {
@@ -230,6 +234,21 @@ table {
 
 /* Para escritorios medium */
 @media (min-width: 992px) {
+    .container-fluid {
+        width: calc(100% - 300px);
+        margin-left: 300px;
+    }
+
+    .container-header {
+        width: 300px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #333333;
+        overflow: auto;
+    }
+
 	.col-md-1 {
 		float: left;
 		width: calc(100% / 12);
@@ -293,6 +312,21 @@ table {
 
 /* Para escritorios large */
 @media (min-width: 1200px) {
+    .container-fluid {
+        width: calc(100% - 300px);
+        margin-left: 300px;
+    }
+
+    .container-header {
+        width: 300px;
+        position: fixed;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        background-color: #333333;
+        overflow: auto;
+    }
+
 	.col-lg-1 {
 		float: left;
 		width: calc(100% / 12);
