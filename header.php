@@ -26,6 +26,7 @@
 		<div class="row container">
 			<div class="col-xs-6 header__logo">
 				<h1>< Mr. Mam ></h1>
+				<span>Diseño y programación</span>
 			</div>
 			<div class="col-xs-6 header__menu">
 				<span class="hidden-md hidden-lg">☰ Menú</span>

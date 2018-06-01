@@ -10,6 +10,6 @@
     margin-bottom: 50px;
 }
 
-#welcome .welcome-wrapper__text p:first {
+#welcome .welcome-wrapper__text p:first-child {
     font-size: 2rem;
 }
