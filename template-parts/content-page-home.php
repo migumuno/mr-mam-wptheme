@@ -71,7 +71,6 @@
 				<ul id="lista_clientes" class="work-wrapper__clients-list">
 					<script>
 						function getClients() {
-							console.log('Holi');
 							const lista_clientes = document.getElementById('lista_clientes');
 							const clients_json = "<?=get_stylesheet_directory_uri() . '/json/clients.json'?>";
 							var request = new XMLHttpRequest();
@@ -81,22 +80,14 @@
 							request.send();
 							request.onload = () => {
 								const clients = request.response;
-								console.log(clients);
 								clients.forEach(client => {
-									console.log( client.name );
+									lista_clientes.append = '<li class="work-wrapper__clients-list__item">' + client.name + '</li>';
 								});
 							}
 						}
 						
 						getClients();
 					</script>
-					<li class="work-wrapper__clients-list__item">a</li>
-					<li class="work-wrapper__clients-list__item">b</li>
-					<li class="work-wrapper__clients-list__item">c</li>
-					<li class="work-wrapper__clients-list__item">d</li>
-					<li class="work-wrapper__clients-list__item">e</li>
-					<li class="work-wrapper__clients-list__item">f</li>
-					<li class="work-wrapper__clients-list__item">g</li>
 				</ul>
 			</div>
 		</div>
