@@ -17,7 +17,8 @@
 				<img src="<?=get_stylesheet_directory_uri()?>/img/logo.jpg" alt="logo Mr. Mam diseño y programación">
 			</div>
 			<div class="col-md-6 welcome-wrapper__text">
-				<p>Hola, Soy Miguel Ángel Muñoz Viejo</p>
+				<p>Hola, Soy Miguel Ángel Muñoz Viejo.</p>
+				<p>Contrátame para construir una web alucinante. Echa un ojo a mi trabajo, leete alguno de mis artículos o ponte en contacto conmigo ( <a href="mailto:hey@mistermam.com">hey@mistermam.com</a> | <a href="tel:+34696984784">+34 696 984 784</a> ) y nos tomamos un café.</p>
 			</div>
 		</div>
 	</section>
