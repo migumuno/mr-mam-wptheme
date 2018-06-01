@@ -120,13 +120,19 @@ add_action( 'widgets_init', 'mr_mam_widgets_init' );
  * Enqueue scripts and styles.
  */
 function mr_mam_scripts() {
+	// Estilos principales
 	wp_enqueue_style( 'mr-mam-style', get_stylesheet_uri() );
-
 	$version = filemtime( dirname(__FILE__) . '/css/grid.css' );
 	wp_enqueue_style( 'mr-mam-grid', get_template_directory_uri() . '/css/grid.css', array( 'mr-mam-style' ), $version );
 	$version = filemtime( dirname(__FILE__) . '/css/custom.css' );
 	wp_enqueue_style( 'mr-mam-custom', get_template_directory_uri() . '/css/custom.css', array( 'mr-mam-style' ), $version );
 	
+	// Estilos específicos de páginas
+	if( is_page( 'home' ) ) :
+		$version = filemtime( dirname(__FILE__) . '/css/home.css' );
+		wp_enqueue_style( 'mr-mam-home', get_template_directory_uri() . '/css/home.css', array( 'mr-mam-custom' ), $version );
+	endif;
+
 	// Fuente Quicksand de Google
 	wp_enqueue_style( 'google-font-quicksand', 'https://fonts.googleapis.com/css?family=Quicksand' );
 

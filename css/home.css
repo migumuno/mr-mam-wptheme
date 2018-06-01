@@ -1,0 +1,15 @@
+#welcome .welcome-wrapper__image {
+    text-align: center;
+}
+
+#welcome .welcome-wrapper__text {
+    margin-top: 150px;
+}
+
+#welcome .welcome-wrapper__text p {
+    margin-bottom: 50px;
+}
+
+#welcome .welcome-wrapper__text p:first {
+    font-size: 2rem;
+}
