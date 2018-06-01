@@ -28,8 +28,8 @@
 				<h1>< Mr. Mam ></h1>
 			</div>
 			<div class="col-md-6 header__menu">
-				<!--<span>☰ Menú</span>-->
-				<nav>
+				<span class="hidden-xs hidden-sm">☰ Menú</span>
+				<nav class="hidden-md hidden-lg">
 					<?php
 					wp_nav_menu( array(
 						'theme_location' => 'menu-1',
