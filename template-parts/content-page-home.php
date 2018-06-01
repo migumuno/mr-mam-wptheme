@@ -41,16 +41,49 @@
 			<h2>Trabajo</h2>
 			<div class="col-xs-12 work-wrapper__skills">
 				<h3>Habilidades</h3>
-				<ul>
-					<li class="work-wrapper__skills-list__item">JavaScript</li>
-					<li class="work-wrapper__skills-list__item">HTML5</li>
-					<li class="work-wrapper__skills-list__item">CSS3</li>
-				</ul>
+				<div class="col-md-4">
+					<p>Back-end</p>
+					<ul>
+						<li class="work-wrapper__skills-list__item">JavaScript</li>
+						<li class="work-wrapper__skills-list__item">HTML5</li>
+						<li class="work-wrapper__skills-list__item">CSS3</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<p>Front-end</p>
+					<ul>
+						<li class="work-wrapper__skills-list__item">JavaScript</li>
+						<li class="work-wrapper__skills-list__item">HTML5</li>
+						<li class="work-wrapper__skills-list__item">CSS3</li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					<p>Back-end</p>
+					<ul>
+						<li class="work-wrapper__skills-list__item">JavaScript</li>
+						<li class="work-wrapper__skills-list__item">HTML5</li>
+						<li class="work-wrapper__skills-list__item">CSS3</li>
+					</ul>
+				</div>
 			</div>
 			<div class="col-xs-12 work-wrapper__clients">
 				<h3>Algunos clientes</h3>
-				<ul class="work-wrapper__clients-list">
-					<li class="work-wrapper__clients-list__item"></li>
+				<ul id="lista_clientes" class="work-wrapper__clients-list">
+					<script>
+						const lista_clientes = document.getElementById('lista_clientes');
+						const clientes = JSON.parse(jQuery.getJSON(<?=get_stylesheet_directory_uri() . '/json/clients.json'?>));
+
+						clients.forEach(client => {
+							console.log(client.name);
+						});
+					</script>
+					<li class="work-wrapper__clients-list__item">a</li>
+					<li class="work-wrapper__clients-list__item">b</li>
+					<li class="work-wrapper__clients-list__item">c</li>
+					<li class="work-wrapper__clients-list__item">d</li>
+					<li class="work-wrapper__clients-list__item">e</li>
+					<li class="work-wrapper__clients-list__item">f</li>
+					<li class="work-wrapper__clients-list__item">g</li>
 				</ul>
 			</div>
 		</div>
