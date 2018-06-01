@@ -71,7 +71,7 @@ input[type='submit']:hover {
 }
 
 #header {
-	color: white;
+	color: #333333;
 	padding: 0px 20px;
     position: fixed;
     top: 0;
