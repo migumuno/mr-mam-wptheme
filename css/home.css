@@ -17,13 +17,13 @@
 /* Para escritorios medium */
 @media (min-width: 992px) {
     #welcome .welcome-wrapper__text {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 }
 
 /* Para escritorios large */
 @media (min-width: 1200px) {
     #welcome .welcome-wrapper__text {
-        margin-top: 100px;
+        margin-top: 150px;
     }
 }
