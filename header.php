@@ -22,25 +22,23 @@
 
 <body <?php body_class(); ?>>
 <div id="page" class="site">
-	<section id="menu">
-		<nav>
-			<?php
-			wp_nav_menu( array(
-				'theme_location' => 'menu-1',
-				'menu_id'        => 'primary-menu',
-			) );
-			?>
-		</nav>
-	</section>
 	<section id="header" class="container">
 		<div class="row">
 			<div class="col-md-6 header__logo">
 				<h1>< Mr. Mam ></h1>
 			</div>
 			<div class="col-md-6 header__menu">
-				<span>☰ Menú</span>
+				<!--<span>☰ Menú</span>-->
+				<nav>
+					<?php
+					wp_nav_menu( array(
+						'theme_location' => 'menu-1',
+						'menu_id'        => 'primary-menu',
+					) );
+					?>
+				</nav>
 			</div>
 		</div>
 	</section>
 
-	<div id="content" class="container-fluid">
+	<section id="content" class="container">
