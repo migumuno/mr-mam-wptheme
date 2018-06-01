@@ -123,7 +123,7 @@ function mr_mam_scripts() {
 	wp_enqueue_style( 'mr-mam-style', get_stylesheet_uri() );
 
 	$version = filemtime( dirname(__FILE__) . '/css/grid.css' );
-	wp_enqueue_style( 'mr-mam-grid', get_stylesheet_uri() . '/css/grid.css', array( 'mr-mam-style' ), $version );
+	wp_enqueue_style( 'mr-mam-grid', get_template_directory_uri() . '/css/grid.css', array( 'mr-mam-style' ), $version );
 
 	wp_enqueue_script( 'mr-mam-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
