@@ -14,6 +14,16 @@
     font-size: 2rem;
 }
 
+#who_i_am .who_i_am-wrapper__text {
+    background-color: #F9F9F9;
+    padding: 50px 60px;
+    margin-top: 50px;
+}
+
+#who_i_am .who_i_am-wrapper__image img {
+    width: 110%;
+}
+
 /* Para escritorios medium */
 @media (min-width: 992px) {
     #welcome .welcome-wrapper__text {
