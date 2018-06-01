@@ -37,7 +37,23 @@
 	</section>
 
 	<section id="work" class="aire">
-
+		<div class="row work-wrapper container">
+			<h2>Trabajo</h2>
+			<div class="col-xs-12 work-wrapper__skills">
+				<h3>Habilidades</h3>
+				<ul>
+					<li class="work-wrapper__skills-list__item">JavaScript</li>
+					<li class="work-wrapper__skills-list__item">HTML5</li>
+					<li class="work-wrapper__skills-list__item">CSS3</li>
+				</ul>
+			</div>
+			<div class="col-xs-12 work-wrapper__clients">
+				<h3>Algunos clientes</h3>
+				<ul class="work-wrapper__clients-list">
+					<li class="work-wrapper__clients-list__item"></li>
+				</ul>
+			</div>
+		</div>
 	</section>
 
 	<section id="about" class="aire">

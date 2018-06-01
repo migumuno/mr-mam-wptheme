@@ -22,6 +22,27 @@
     background-color: #F9F9F9;
 }
 
+#who_i_am .who_i_am-wrapper__image img {
+    margin-top: 50px;
+}
+
+/* Work */
+
+#work {
+    background-color: #191919;
+    border-bottom: 3px solid #fff;
+    border-top: 3px solid #fff;
+    color:#fff;
+}
+
+#work h2 {
+    color: #fff;
+}
+
+#work h3 {
+    color: #F9F9F9;
+}
+
 /* Responsive */
 
 /* Para escritorios medium */
@@ -38,6 +59,10 @@
         background-color: #F9F9F9;
         padding: 50px 60px;
         margin-top: 50px;
+    }
+
+    #who_i_am .who_i_am-wrapper__image img {
+        margin-top: 0;
     }
 }
 
