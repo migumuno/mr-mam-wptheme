@@ -70,10 +70,10 @@
 				<h3>Algunos clientes</h3>
 				<ul id="lista_clientes" class="work-wrapper__clients-list">
 					<script>
-						const lista_clientes = document.getElementById('lista_clientes');
-						const clientes = jQuery.getJSON("<?=get_stylesheet_directory_uri() . '/json/clients.json'?>");
+						var lista_clientes = document.getElementById('lista_clientes');
+						var clientes = jQuery.getJSON("<?=get_stylesheet_directory_uri() . '/json/clients.json'?>");
 						console.log(clientes);
-						const clientes_arr = JSON.parse(clientes);
+						var clientes_arr = JSON.parse(clientes);
 						console.log(clientes_arr);
 
 						clientes_arr.forEach(client => {
