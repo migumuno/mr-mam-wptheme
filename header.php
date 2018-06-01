@@ -24,10 +24,10 @@
 <div id="page" class="site">
 	<section id="header" class="container-fluid">
 		<div class="row container">
-			<div class="col-md-6 header__logo">
+			<div class="col-xs-6 header__logo">
 				<h1>< Mr. Mam ></h1>
 			</div>
-			<div class="col-md-6 header__menu">
+			<div class="col-xs-6 header__menu">
 				<span class="hidden-md hidden-lg">☰ Menú</span>
 				<nav class="hidden-xs hidden-sm">
 					<?php

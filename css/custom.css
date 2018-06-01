@@ -31,9 +31,9 @@ p {
 	line-height: 2rem;
 }
 
-section:nth-child(odd){
+/*section:nth-child(odd){
 	background-color: #efefef;
-}
+}*/
 
 input[type="text"], input[type="email"], textarea, select {
 	width: 100%;
