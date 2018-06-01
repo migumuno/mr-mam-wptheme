@@ -32,8 +32,8 @@
 			?>
 		</nav>
 	</section>
-	<section id="header" class="container-fluid">
-		<div class="row container">
+	<section id="header" class="container">
+		<div class="row">
 			<div class="col-md-6 header__logo">
 				<h1>< Mr. Mam ></h1>
 			</div>

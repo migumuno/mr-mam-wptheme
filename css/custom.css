@@ -99,8 +99,12 @@ input[type='submit']:hover {
 	color: #333;
 }
 
-#header .header__logo {
+#header .header__logo, .header__menu {
 	padding: 10px;
+}
+
+#header .header__menu {
+    text-align: right;
 }
 
 #header nav ul {
