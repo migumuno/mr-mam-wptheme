@@ -12,7 +12,7 @@
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<section id="welcome" class="aire">
-		<div class="row welcome-wrapper">
+		<div class="row welcome-wrapper container">
 			<div class="col-md-6 welcome-wrapper__image">
 				<img src="<?=get_stylesheet_directory_uri()?>/img/logo.jpg" alt="logo Mr. Mam diseño y programación">
 			</div>
@@ -24,7 +24,7 @@
 	</section>
 
 	<section id="who_i_am" class="aire">
-		<div class="row who_i_am-wrapper">
+		<div class="row who_i_am-wrapper container">
 			<div class="col-md-6 who_i_am-wrapper__text">
 				<h2>Quién soy</h2>
 				<h3>Full Stack Developer</h3>

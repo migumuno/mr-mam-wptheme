@@ -1,3 +1,5 @@
+/* Welcome */
+
 #welcome .welcome-wrapper__image {
     text-align: center;
 }
@@ -14,15 +16,19 @@
     font-size: 2rem;
 }
 
+/* Who I am */
+
 #who_i_am .who_i_am-wrapper__text {
     background-color: #F9F9F9;
-    padding: 50px 60px;
-    margin-top: 50px;
+    /*padding: 50px 60px;
+    margin-top: 50px;*/
 }
 
 #who_i_am .who_i_am-wrapper__image img {
     width: 110%;
 }
+
+/* Responsive */
 
 /* Para escritorios medium */
 @media (min-width: 992px) {

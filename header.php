@@ -41,4 +41,4 @@
 		</div>
 	</section>
 
-	<section id="content" class="container">
+	<section id="content" class="container-fluid">
