@@ -14,14 +14,18 @@
 		window.addEventListener( 'scroll', (e) => {
 			const work = document.getElementById('work');
 			const headerH1 = document.querySelector('#header h1');
-			const headerMenu = document.querySelector('#header nav ul > li a');
+			const headerMenu = document.querySelectorAll('#header nav ul > li a');
 
 			if( window.pageYOffset >= work.offsetTop && window.pageYOffset <= ( work.offsetTop + work.offsetHeight ) ) {
 				headerH1.style.color = '#fff';
-				headerMenu.style.color = '#fff';
+				headerMenu.forEach( item => {
+					item.style.color = '#fff';
+				} );
 			} else {
 				headerH1.style.color = '#333333';
-				headerMenu.style.color = '#333333';
+				headerMenu.forEach( item => {
+					item.style.color = '#fff';
+				} );
 			}
 		} );
 	}
