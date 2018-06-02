@@ -38,15 +38,15 @@
 
 	<section id="work" class="aire">
 		<div class="row work-wrapper container">
-			<div class="col-md-6 work-wrapper__text">
+			<div class="col-xs-12 work-wrapper__text aire">
 				<h2>Trabajo</h2>
 				<p>Soy un full stack developer, lo que significa que tengo conocimientos tanto de la parte de back-end como de la parte de front-end. Defensor absoluto del código libre e intentando compartir cada día más cosas con el resto del mundo.</p>
 				<p>He sido director de desarrollo durante varios años en diversas empresas y he dirigido y ejecutado multitud de proyectos de diferentes tipos y con diferentes tecnologías. Tras la carrera, inicié mi camino desarrollando para web con PHP y en el camino me enamoré de WordPress (al principio más odio que amor ;)). He trabajado mucho con HTML5, CSS3 y JavaScript y me fascina toda la tecnología que está saliendo entorno a este último (NodeJS, React, AngularJS…).</p>
 				<p>Si quieres saber más sobre mi trayectoria laboral anterior a < Mr. Mam > puedes echarle un ojo a mi currículum.</p>
 			</div>
-			<div class="col-md-6 work-wrapper__skills">
+			<div class="col-md-6 work-wrapper__skills aire">
 				<h3>Habilidades</h3>
-				<div class="col-md-6">
+				<div class="col-xs-12">
 					<div class="col-xs-3">
 						<p>Back-end</p>
 					</div>
@@ -75,14 +75,14 @@
 							<li class="work-wrapper__skills-list__item"><span>L</span> jQuery</li>
 							<li class="work-wrapper__skills-list__item"><span>L</span> Bootstrap</li>
 							<li class="work-wrapper__skills-list__item"><span>L</span> Foundation</li>
-							<li class="work-wrapper__skills-list__item"><span>L</span> Google Maps</li>
-							<li class="work-wrapper__skills-list__item"><span>L</span> Facebook</li>
-							<li class="work-wrapper__skills-list__item"><span>L</span> Linkedin</li>
+							<li class="work-wrapper__skills-list__item"><span>A</span> Google Maps</li>
+							<li class="work-wrapper__skills-list__item"><span>A</span> Facebook</li>
+							<li class="work-wrapper__skills-list__item"><span>A</span> Linkedin</li>
 						</ul>
 					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 work-wrapper__clients">
+			<div class="col-xs-12 work-wrapper__clients aire">
 				<h3>Algunos clientes</h3>
 				<ul id="lista_clientes" class="work-wrapper__clients-list">
 					<script>
