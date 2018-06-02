@@ -46,9 +46,12 @@
 
 		// Añado animación a los clicks del menu
 		headerMenu.forEach(element => {
+			console.log('Elemento');
 			element.click((e) => {
+				console.log('click');
 				e.preventDefault();
 				let elementHref = element.attr('href');
+				console.log(elementHref);
 				let elementDestiny = document.querySelector(elementHref);
 
 				jQuery('html, body').animate( {scrollTop: elementDestiny.offsetTop}, 600 );
