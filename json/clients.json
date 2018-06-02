@@ -6,5 +6,19 @@
     { "name": "El Corte Inglés", "img": "elcorteingles.png"  },
     { "name": "Essilor", "img": "essilor.png"  },
     { "name": "Estrella Galicia", "img": "estrella_galicia.png"  },
-    { "name": "Europac", "img": "europac.png"  }
+    { "name": "Europac", "img": "europac.png"  },
+    { "name": "Eyezen", "img": "eyezen.png"  },
+    { "name": "GoodYear", "img": "goodyear.png"  },
+    { "name": "IAG", "img": "iag.png"  },
+    { "name": "Kilometros que cuentan", "img": "kilometrosquecuentan.png"  },
+    { "name": "kodak", "img": "kodak.png"  },
+    { "name": "Nexo Optics", "img": "nexo.png"  },
+    { "name": "OPTI", "img": "opti.png"  },
+    { "name": "Podere Brizio", "img": "poderebrizio.png"  },
+    { "name": "Raiz", "img": "raiz.svg"  },
+    { "name": "Son Estrella Galicia", "img": "son.png"  },
+    { "name": "Chateau Suau", "img": "suau.png"  },
+    { "name": "Varilux y Varilux Especialista", "img": "varilux.png"  },
+    { "name": "We Lover Size", "img": "weloversize.png"  },
+    { "name": "Comuna", "img": "comuna.png"  }
 ]
