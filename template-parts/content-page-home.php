@@ -79,14 +79,14 @@
 
 	<section id="work" class="aire">
 		<div class="row work-wrapper container">
-			<div class="col-xs-12 work-wrapper__text aire">
+			<div class="work-wrapper__text aire">
 				<h2>Trabajo</h2>
 				<p>Soy un full stack developer, lo que significa que tengo conocimientos tanto de la parte de back-end como de la parte de front-end. Defensor absoluto del código libre e intentando compartir cada día más cosas con el resto del mundo.</p>
 				<p>He sido director de desarrollo durante varios años en diversas empresas y he dirigido y ejecutado multitud de proyectos de diferentes tipos y con diferentes tecnologías. Tras la carrera, inicié mi camino desarrollando para web con PHP y en el camino me enamoré de WordPress (al principio más odio que amor ;)). He trabajado mucho con HTML5, CSS3 y JavaScript y me fascina toda la tecnología que está saliendo entorno a este último (NodeJS, React, AngularJS…).</p>
 			</div>
-			<div class="col-xs-12 work-wrapper__skills aire">
+			<div class="work-wrapper__skills aire">
 				<h3>Habilidades</h3>
-				<div class="col-md-6 aire">
+				<div class="col-md-6 row aire">
 					<div class="col-sm-4">
 						<p>Back-end</p>
 					</div>
@@ -102,7 +102,7 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-6 aire">
+				<div class="col-md-6 row aire">
 					<div class="col-sm-4">
 						<p>Front-end</p>
 					</div>
