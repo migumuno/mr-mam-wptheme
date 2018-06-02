@@ -32,6 +32,10 @@ p {
     padding: 20px 0;
 }
 
+a {
+    color: orange;
+}
+
 /*section:nth-child(odd){
 	background-color: #efefef;
 }*/

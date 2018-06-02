@@ -45,11 +45,11 @@
 			</div>
 			<div class="col-xs-12 work-wrapper__skills aire">
 				<h3>Habilidades</h3>
-				<div class="col-md-6">
-					<div class="col-xs-4">
+				<div class="col-md-6 aire">
+					<div class="col-sm-4">
 						<p>Back-end</p>
 					</div>
-					<div class="col-xs-8">
+					<div class="col-sm-8">
 						<ul>
 							<li class="work-wrapper__skills-list__item">PHP</li>
 							<li class="work-wrapper__skills-list__item">NodeJS</li>
@@ -61,11 +61,11 @@
 						</ul>
 					</div>
 				</div>
-				<div class="col-md-6">
-					<div class="col-xs-4">
+				<div class="col-md-6 aire">
+					<div class="col-sm-4">
 						<p>Front-end</p>
 					</div>
-					<div class="col-xs-8">
+					<div class="col-sm-8">
 						<ul>
 							<li class="work-wrapper__skills-list__item">JavaScript</li>
 							<li class="work-wrapper__skills-list__item">HTML5</li>
@@ -80,7 +80,7 @@
 						</ul>
 					</div>
 				</div>
-				<p><span>L</span>: Librerías, <span>A</span>: API</p>
+				<small><span>L</span>: Librerías, <span>A</span>: API</small>
 			</div>
 			<div class="col-xs-12 work-wrapper__clients aire">
 				<h3>Algunos clientes</h3>
