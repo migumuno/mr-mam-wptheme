@@ -46,11 +46,10 @@
 
 		// Añado animación a los clicks del menu
 		headerMenu.forEach(element => {
-			console.log('Elemento');
-			element.click((e) => {
+			element.addEventListener('click', e => {
 				console.log('click');
 				e.preventDefault();
-				let elementHref = element.attr('href');
+				let elementHref = element.hash;
 				console.log(elementHref);
 				let elementDestiny = document.querySelector(elementHref);
 
