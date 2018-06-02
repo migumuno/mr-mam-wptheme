@@ -16,7 +16,6 @@
 		const headerMenuIcon = document.querySelector('.header__menu span');
 		const headerMenuNav = document.querySelector('.header__menu nav');
 		const headerMenu = document.querySelectorAll('#header nav ul > li a');
-		const headerMenuHover = document.querySelectorAll('#header nav ul > li a:hover');
 
 		// Se encarga de controlar el scroll para que cuando entre en la capa de trabajo cambie el color de los elementos
 		// del menú.
@@ -27,17 +26,11 @@
 				headerMenu.forEach( item => {
 					item.style.color = '#fff';
 				} );
-				headerMenuHover.forEach( item => {
-					item.style.color = 'orange';
-				} );
 			} else {
 				headerH1.style.color = '#333333';
 				headerMenuIcon.style.color = '#333333';
 				headerMenu.forEach( item => {
 					item.style.color = '#333333';
-				} );
-				headerMenuHover.forEach( item => {
-					item.style.color = 'orange';
 				} );
 			}
 		} );
@@ -50,6 +43,17 @@
 				headerMenuNav.style.display = 'none';
 			}
 		} );
+
+		// Añado animación a los clicks del menu
+		headerMenu.forEach(element => {
+			element.preventDefault();
+			element.click(() => {
+				let elementHref = element.attr('href');
+				let elementDestiny = document.querySelector(elementHref);
+
+				jQuery('html, body').animate( {scrollTop: elementDestiny.offsetTop}, 600 );
+			});
+		});
 	}
 
 	jQuery(document).ready(() => {
