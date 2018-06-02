@@ -11,21 +11,36 @@
 
 <script>
 	function init() {
-		window.addEventListener( 'scroll', (e) => {
-			const work = document.getElementById('work');
-			const headerH1 = document.querySelector('#header h1');
-			const headerMenu = document.querySelectorAll('#header nav ul > li a');
+		const work = document.getElementById('work');
+		const headerH1 = document.querySelector('#header h1');
+		const headerMenuIcon = document.querySelector('.header__menu span');
+		const headerMenuNav = document.querySelector('.header__menu nav');
+		const headerMenu = document.querySelectorAll('#header nav ul > li a');
 
+		// Se encarga de controlar el scroll para que cuando entre en la capa de trabajo cambie el color de los elementos
+		// del menú.
+		window.addEventListener( 'scroll', (e) => {
 			if( window.pageYOffset >= work.offsetTop && window.pageYOffset <= ( work.offsetTop + work.offsetHeight ) ) {
 				headerH1.style.color = '#fff';
+				headerMenuIcon.style.color = '#fff';
 				headerMenu.forEach( item => {
 					item.style.color = '#fff';
 				} );
 			} else {
 				headerH1.style.color = '#333333';
+				headerMenuIcon.style.color = '#333333';
 				headerMenu.forEach( item => {
 					item.style.color = '#333333';
 				} );
+			}
+		} );
+		
+		// Se encarga de desplegar y replegar el menú
+		headerMenuIcon.addEventListener( 'click', (e) => {
+			if( headerMenuNav.style.display === 'none' ){
+				headerMenuNav.style.display = 'block';
+			} else {
+				headerMenuNav.style.display = 'none';
 			}
 		} );
 	}

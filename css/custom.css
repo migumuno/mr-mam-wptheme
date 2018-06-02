@@ -89,6 +89,38 @@ input[type='submit']:hover {
 	font-weight: bold;
 }
 
+#header nav ul {
+    margin-top: 10px;
+}
+
+#header nav ul > li {
+    display: block;
+}
+
+#header nav ul > li > a {
+    text-decoration: none;
+}
+
+#header nav ul > li > a:hover {
+    color: orange;
+}
+
+/* Para escritorios medium */
+@media (min-width: 992px) {
+    #header nav ul > li {
+        display: inline-block;
+    }
+
+    #header nav ul {
+        margin-top: 0;
+    }
+}
+
+/* Para escritorios large */
+@media (min-width: 1200px) {
+
+}
+
 @keyframes headerWhite {
 	0% {background-color: rgba(255,255,255,0.2);}
 	100% {background-color: rgba(255,255,255,0.8);}
