@@ -46,17 +46,9 @@
     text-align: center;
 }
 
-#work .work-wrapper__text {
-    margin-left: auto;
-    margin-right: auto;
-    width: calc(100% / 3);
-    text-align: center;
-}
-
 #work .work-wrapper__skills p {
     line-height: 1rem;
     font-size: 1.2rem;
-
 }
 
 #work .work-wrapper__skills-list__item {
@@ -96,6 +88,12 @@
 
     #who_i_am .who_i_am-wrapper__image img {
         margin-top: 0;
+    }
+
+    #work .work-wrapper__text {
+        margin-left: calc(calc(100% / 3) / 2);
+        width: calc(100% / 3 * 2);
+        text-align: center;
     }
 }
 
