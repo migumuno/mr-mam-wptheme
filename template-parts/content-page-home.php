@@ -84,27 +84,29 @@
 			</div>
 			<div class="col-xs-12 work-wrapper__clients aire">
 				<h3>Algunos clientes</h3>
-				<ul id="lista_clientes" class="work-wrapper__clients-list">
-					<script>
-						function getClients() {
-							const lista_clientes = document.getElementById('lista_clientes');
-							const clients_json = "<?=get_stylesheet_directory_uri() . '/json/clients.json'?>";
-							var request = new XMLHttpRequest();
-							
-							request.open( 'GET', clients_json );
-							request.responseType = 'json';
-							request.send();
-							request.onload = () => {
-								const clients = request.response;
-								clients.forEach(client => {
-									lista_clientes.innerHTML += '<li class="work-wrapper__clients-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></li>';
-								});
+				<div class="col-xs-12 aire">
+					<ul id="lista_clientes" class="work-wrapper__clients-list">
+						<script>
+							function getClients() {
+								const lista_clientes = document.getElementById('lista_clientes');
+								const clients_json = "<?=get_stylesheet_directory_uri() . '/json/clients.json'?>";
+								var request = new XMLHttpRequest();
+								
+								request.open( 'GET', clients_json );
+								request.responseType = 'json';
+								request.send();
+								request.onload = () => {
+									const clients = request.response;
+									clients.forEach(client => {
+										lista_clientes.innerHTML += '<li class="work-wrapper__clients-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></li>';
+									});
+								}
 							}
-						}
-						
-						getClients();
-					</script>
-				</ul>
+							
+							getClients();
+						</script>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</section>
