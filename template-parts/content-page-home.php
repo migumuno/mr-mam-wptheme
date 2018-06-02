@@ -13,16 +13,18 @@
 	function init() {
 		window.addEventListener( 'scroll', (e) => {
 			const work = document.getElementById('work');
-			const header = document.getElementById('header');
+			const headerH1 = document.querySelector('#header h1');
+			const headerMenu = document.querySelector('#header nav ul > li a');
 
 			if( window.pageYOffset >= work.offsetTop && window.pageYOffset <= ( work.offsetTop + work.offsetHeight ) ) {
-				header.style.color = '#fff';
+				headerH1.style.color = '#fff';
+				headerMenu.style.color = '#fff';
 			} else {
-				header.style.color = '#333333';
+				headerH1.style.color = '#333333';
+				headerMenu.style.color = '#333333';
 			}
 		} );
 	}
-	init();
 </script>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -52,7 +54,7 @@
 		</div>
 	</section>
 
-	<section id="work" class="aire">
+	<section onload="init()" id="work" class="aire">
 		<div class="row work-wrapper container">
 			<div class="col-xs-12 work-wrapper__text aire">
 				<h2>Trabajo</h2>
