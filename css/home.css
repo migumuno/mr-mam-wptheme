@@ -24,6 +24,7 @@
 
 #who_i_am .who_i_am-wrapper__image img {
     margin-top: 50px;
+    width: 100%;
 }
 
 /* Work */

@@ -41,29 +41,29 @@
 			<h2>Trabajo</h2>
 			<div class="col-xs-12 work-wrapper__skills">
 				<h3>Habilidades</h3>
-				<div class="col-md-4">
-					<p>Back-end</p>
-					<ul>
-						<li class="work-wrapper__skills-list__item">JavaScript</li>
-						<li class="work-wrapper__skills-list__item">HTML5</li>
-						<li class="work-wrapper__skills-list__item">CSS3</li>
-					</ul>
+				<div class="col-md-6">
+					<div class="col-xs-2">
+						<p>Back-end</p>
+					</div>
+					<div class="col-xs-10">
+						<ul>
+							<li class="work-wrapper__skills-list__item">JavaScript</li>
+							<li class="work-wrapper__skills-list__item">HTML5</li>
+							<li class="work-wrapper__skills-list__item">CSS3</li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-md-4">
-					<p>Front-end</p>
-					<ul>
-						<li class="work-wrapper__skills-list__item">JavaScript</li>
-						<li class="work-wrapper__skills-list__item">HTML5</li>
-						<li class="work-wrapper__skills-list__item">CSS3</li>
-					</ul>
-				</div>
-				<div class="col-md-4">
-					<p>Back-end</p>
-					<ul>
-						<li class="work-wrapper__skills-list__item">JavaScript</li>
-						<li class="work-wrapper__skills-list__item">HTML5</li>
-						<li class="work-wrapper__skills-list__item">CSS3</li>
-					</ul>
+				<div class="col-md-6">
+					<div class="col-xs-2">
+						<p>Front-end</p>
+					</div>
+					<div class="col-xs-10">
+						<ul>
+							<li class="work-wrapper__skills-list__item">JavaScript</li>
+							<li class="work-wrapper__skills-list__item">HTML5</li>
+							<li class="work-wrapper__skills-list__item">CSS3</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="col-xs-12 work-wrapper__clients">
