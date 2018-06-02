@@ -81,7 +81,7 @@
 							request.onload = () => {
 								const clients = request.response;
 								clients.forEach(client => {
-									lista_clientes.innerHTML += '<li class="work-wrapper__clients-list__item">' + client.name + '</li>';
+									lista_clientes.innerHTML += '<li class="work-wrapper__clients-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></li>';
 								});
 							}
 						}
