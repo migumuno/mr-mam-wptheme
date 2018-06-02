@@ -46,8 +46,8 @@
 
 		// Añado animación a los clicks del menu
 		headerMenu.forEach(element => {
-			element.preventDefault();
-			element.click(() => {
+			element.click((e) => {
+				e.preventDefault();
 				let elementHref = element.attr('href');
 				let elementDestiny = document.querySelector(elementHref);
 
