@@ -55,6 +55,11 @@
     line-height: 2rem;
 }
 
+#work .work-wrapper__skills span {
+    color: orange;
+    font-style: italic;
+}
+
 #work .work-wrapper__clients-list {
     text-align: center;
 }
