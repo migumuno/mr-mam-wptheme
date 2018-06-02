@@ -15,17 +15,16 @@ small {
 }
 
 h2 {
-	font-size: 24px;
+	font-size: 3rem;
 	padding-top: 10px;
 	padding-bottom: 20px;
-	/*font-weight: bold;*/
 }
 
 h3 {
-	/*font-weight: bold;*/
-	color: #999999;
+    font-size: 1.5rem;
 	padding-top: 10px;
-	padding-bottom: 40px;
+    padding-bottom: 40px;
+	color: #999999;
 }
 
 p {
