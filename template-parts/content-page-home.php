@@ -22,6 +22,7 @@
 			}
 		} );
 	}
+	init();
 </script>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
@@ -51,7 +52,7 @@
 		</div>
 	</section>
 
-	<section onload="init()" id="work" class="aire">
+	<section id="work" class="aire">
 		<div class="row work-wrapper container">
 			<div class="col-xs-12 work-wrapper__text aire">
 				<h2>Trabajo</h2>
