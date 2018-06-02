@@ -29,7 +29,7 @@ h3 {
 
 p {
     line-height: 2rem;
-    padding: 20px;
+    padding: 0 20px;
 }
 
 /*section:nth-child(odd){
