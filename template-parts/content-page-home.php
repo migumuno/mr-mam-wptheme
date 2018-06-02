@@ -9,6 +9,21 @@
 
 ?>
 
+<script>
+	function init() {
+		window.addEventListener( 'scroll', (e) => {
+			const work = document.getElementById('work');
+			const header = document.getElementById('header');
+
+			if( window.pageYOffset >= work.offsetTop && window.pageYOffset <= ( work.offsetTop + work.offsetHeight ) ) {
+				header.style.color = '#fff';
+			} else {
+				header.style.color = '#333333';
+			}
+		} );
+	}
+</script>
+
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
 	<section id="welcome" class="aire">
@@ -36,7 +51,7 @@
 		</div>
 	</section>
 
-	<section id="work" class="aire">
+	<section onload="init()" id="work" class="aire">
 		<div class="row work-wrapper container">
 			<div class="col-xs-12 work-wrapper__text aire">
 				<h2>Trabajo</h2>
