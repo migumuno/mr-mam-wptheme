@@ -46,6 +46,15 @@
     text-align: center;
 }
 
+#work .work-wrapper__skills p {
+    line-height: 1rem;
+    font-size: 1.2rem;
+}
+
+#work .work-wrapper__skills-list__item {
+    line-height: 2rem;
+}
+
 #work .work-wrapper__clients-list {
     text-align: center;
 }
