@@ -24,7 +24,7 @@
 			} else {
 				headerH1.style.color = '#333333';
 				headerMenu.forEach( item => {
-					item.style.color = '#fff';
+					item.style.color = '#333333';
 				} );
 			}
 		} );
