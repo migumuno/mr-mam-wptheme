@@ -45,6 +45,15 @@
     text-align: center;
 }
 
+#work .work-wrapper__clients-list img {
+    max-width: 150px;
+}
+
+#work .work-wrapper__clients-list li {
+    display: inline-block;
+    padding: 20px;
+}
+
 /* Responsive */
 
 /* Para escritorios medium */
