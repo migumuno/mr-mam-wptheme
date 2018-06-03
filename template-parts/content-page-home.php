@@ -27,14 +27,14 @@
 				headerMenu.forEach( item => {
 					item.style.color = '#fff';
 				} );
-				header.style.background = 'rgb(51,51,51,0.7)';
+				header.style.backgroundColor = 'rgba(51,51,51,0.7)';
 			} else {
 				headerH1.style.color = '#333333';
 				headerMenuIcon.style.color = '#333333';
 				headerMenu.forEach( item => {
 					item.style.color = '#333333';
 				} );
-				header.style.background = 'rgb(255,255,255,0.7)';
+				header.style.backgroundColor = 'rgba(255,255,255,0.7)';
 			}
 		} );
 		
