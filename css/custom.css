@@ -112,10 +112,6 @@ input[type='submit']:hover {
 	padding: 10px;
 }
 
-#header .header__logo {
-    padding-top: 17px;
-}
-
 #header .header__menu {
     text-align: right;
 }
@@ -149,6 +145,10 @@ input[type='submit']:hover {
 @media (min-width: 992px) {
     #header nav ul > li {
         display: inline-block;
+    }
+
+    #header .header__logo {
+        padding-top: 17px;
     }
 
     #header nav ul {
