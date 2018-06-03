@@ -12,6 +12,7 @@
 <script>
 	function init() {
 		const work = document.getElementById('work');
+		const header = document.getElementById('header');
 		const headerH1 = document.querySelector('#header h1');
 		const headerMenuIcon = document.querySelector('.header__menu span');
 		const headerMenuNav = document.querySelector('.header__menu nav');
@@ -26,12 +27,14 @@
 				headerMenu.forEach( item => {
 					item.style.color = '#fff';
 				} );
+				header.style.background = 'rgb(51,51,51,0.7)';
 			} else {
 				headerH1.style.color = '#333333';
 				headerMenuIcon.style.color = '#333333';
 				headerMenu.forEach( item => {
 					item.style.color = '#333333';
 				} );
+				header.style.background = 'rgb(255,255,255,0.7)';
 			}
 		} );
 		
