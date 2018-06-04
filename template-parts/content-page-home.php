@@ -17,6 +17,8 @@
 		const headerMenuIcon = document.querySelector('.header__menu span');
 		const headerMenuNav = document.querySelector('.header__menu nav');
 		const headerMenu = document.querySelectorAll('#header nav ul > li a');
+		const welcome = document.getElementById('welcome');
+		const welcomeBackground = document.getElementById('welcome-background');
 
 		// Se encarga de controlar el scroll para que cuando entre en la capa de trabajo cambie el color de los elementos
 		// del menú.
@@ -63,6 +65,8 @@
 				jQuery('html, body').animate( {scrollTop: elementDestiny.offsetTop}, 600 );
 			});
 		});
+
+		welcomeBackground.style.height = welcome.height;
 	}
 
 	jQuery(document).ready(() => {
@@ -71,7 +75,7 @@
 </script>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
+	<div id="welcome-background" class="hidden-xs hidden-sm hidden-md"></div>
 	<section id="welcome" class="aire">
 		<div class="row welcome-wrapper container">
 			<div class="col-md-6 welcome-wrapper__image">
