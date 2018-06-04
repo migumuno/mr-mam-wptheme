@@ -75,7 +75,7 @@
 </script>
 
 <section id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<div id="welcome-background"></div>
+	<div id="welcome-background" class="hidden-xs"></div>
 	<section id="welcome" class="aire">
 		<div class="row welcome-wrapper container">
 			<div class="col-md-6 welcome-wrapper__image">
