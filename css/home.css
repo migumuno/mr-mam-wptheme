@@ -77,6 +77,10 @@
 
 /* Para escritorios medium */
 @media (min-width: 992px) {
+    #welcome {
+        background-image: url('../img/escritorio.jpg');
+    }
+
     #welcome .welcome-wrapper__text {
         margin-top: 80px;
     }
