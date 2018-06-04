@@ -147,31 +147,34 @@
 				</div>
 				<small><span>L</span>: Librerías, <span>A</span>: API</small>
 			</div>
-			<div class="col-xs-12 work-wrapper__clients aire">
-				<h3>Algunos clientes</h3>
-				<div class="col-xs-12 aire">
-					<ul id="lista_clientes" class="work-wrapper__clients-list">
-						<script>
-							function getClients() {
-								const lista_clientes = document.getElementById('lista_clientes');
-								const clients_json = "<?=get_stylesheet_directory_uri() . '/json/clients.json'?>";
-								var request = new XMLHttpRequest();
-								
-								request.open( 'GET', clients_json );
-								request.responseType = 'json';
-								request.send();
-								request.onload = () => {
-									const clients = request.response;
-									clients.forEach(client => {
-										lista_clientes.innerHTML += '<li class="work-wrapper__clients-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></li>';
-									});
-								}
-							}
+		</div>
+	</section>
+
+	<section id="customers" class="aire">
+		<div class="row customers-wrapper container">
+			<h2>Algunos clientes</h2>
+			<div class="col-xs-12 aire">
+				<ul id="lista_clientes" class="customers-wrapper__list">
+					<script>
+						function getCustomers() {
+							const lista_clientes = document.getElementById('lista_clientes');
+							const customers_json = "<?=get_stylesheet_directory_uri() . '/json/customers.json'?>";
+							var request = new XMLHttpRequest();
 							
-							getClients();
-						</script>
-					</ul>
-				</div>
+							request.open( 'GET', customers_json );
+							request.responseType = 'json';
+							request.send();
+							request.onload = () => {
+								const customers = request.response;
+								customers.forEach(client => {
+									lista_clientes.innerHTML += '<li class="work-wrapper__customers-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></li>';
+								});
+							}
+						}
+						
+						getCustomers();
+					</script>
+				</ul>
 			</div>
 		</div>
 	</section>
