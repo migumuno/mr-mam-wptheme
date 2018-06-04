@@ -79,6 +79,7 @@
 @media (min-width: 992px) {
     #welcome-background {
         background-image: url('../img/escritorio.jpg');
+        background-size: 100%;
         -webkit-filter: blur(5px);
         filter: blur(5px);
         width: 100%;
