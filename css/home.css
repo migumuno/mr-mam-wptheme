@@ -83,6 +83,15 @@
     max-width: 150px;
 }
 
+#customers .customers-wrapper__list img:hover {
+    -webkit-filter: sepia(50%);
+    filter: sepia(50%);
+}
+
+#customers .customers-wrapper__list ul {
+    text-align: center;
+}
+
 #customers .customers-wrapper__list li {
     display: inline-block;
     padding: 20px;
