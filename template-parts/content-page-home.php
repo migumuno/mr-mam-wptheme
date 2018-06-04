@@ -66,7 +66,7 @@
 			});
 		});
 
-		welcomeBackground.style.height = welcome.offsetHeight;
+		welcomeBackground.style.height = welcome.offsetHeight + 'px';
 	}
 
 	jQuery(document).ready(() => {
