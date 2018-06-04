@@ -21,6 +21,7 @@
 		// Se encarga de controlar el scroll para que cuando entre en la capa de trabajo cambie el color de los elementos
 		// del menú.
 		window.addEventListener( 'scroll', (e) => {
+			// Negro
 			if( window.pageYOffset >= work.offsetTop && window.pageYOffset <= ( work.offsetTop + work.offsetHeight ) ) {
 				headerH1.style.color = '#fff';
 				headerMenuIcon.style.color = '#fff';
@@ -28,6 +29,8 @@
 					item.style.color = '#fff';
 				} );
 				header.style.backgroundColor = 'rgba(51,51,51,0.7)';
+				header.style.borderBottom = '0';
+			// Claro
 			} else {
 				headerH1.style.color = '#333333';
 				headerMenuIcon.style.color = '#333333';
@@ -35,6 +38,7 @@
 					item.style.color = '#333333';
 				} );
 				header.style.backgroundColor = 'rgba(255,255,255,0.7)';
+				header.style.borderBottom = '1px solid #efefef';
 			}
 		} );
 		
