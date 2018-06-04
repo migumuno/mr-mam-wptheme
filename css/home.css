@@ -1,5 +1,15 @@
 /* Welcome */
 
+#welcome-background {
+    background-image: url('../img/escritorio.jpg');
+    background-size: 100%;
+    -webkit-filter: blur(3px) opacity(50%);
+    filter: blur(3px) opacity(50%);
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+}
+
 #welcome .welcome-wrapper__image {
     text-align: center;
 }
@@ -78,16 +88,6 @@
 
 /* Para escritorios medium */
 @media (min-width: 992px) {
-    #welcome-background {
-        background-image: url('../img/escritorio.jpg');
-        background-size: 100%;
-        -webkit-filter: blur(3px) opacity(50%);
-        filter: blur(3px) opacity(50%);
-        width: 100%;
-        z-index: -1;
-        position: absolute;
-    }
-
     #welcome .welcome-wrapper__text {
         margin-top: 80px;
     }
