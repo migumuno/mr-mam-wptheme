@@ -75,6 +75,10 @@
     text-align: center;
 }
 
+#customers h2 {
+    text-align: center;
+}
+
 #customers .customers-wrapper__list img {
     max-width: 150px;
 }
