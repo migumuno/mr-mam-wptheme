@@ -80,9 +80,11 @@
     #welcome-background {
         background-image: url('../img/escritorio.jpg');
         background-size: 100%;
-        -webkit-filter: blur(5px);
-        filter: blur(5px);
+        -webkit-filter: blur(5px) opacity(50%);
+        filter: blur(5px) opacity(50%);
         width: 100%;
+        z-index: -1;
+        position: absolute;
     }
 
     #welcome .welcome-wrapper__text {
