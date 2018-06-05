@@ -131,6 +131,8 @@ function mr_mam_scripts() {
 	if( is_page( 'home' ) ) :
 		$version = filemtime( dirname(__FILE__) . '/css/home.css' );
 		wp_enqueue_style( 'mr-mam-home', get_template_directory_uri() . '/css/home.css', array( 'mr-mam-custom' ), $version );
+		wp_enqueue_script( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.min.js', array(), '1.8.1', true );
+		wp_enqueue_style( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.min.js', array(), '1.8.1' );
 	endif;
 
 	// Fuente Quicksand de Google
