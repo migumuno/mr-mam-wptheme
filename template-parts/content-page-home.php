@@ -154,7 +154,7 @@
 		<div class="row customers-wrapper container">
 			<h2>Algunos clientes</h2>
 			<div class="col-xs-12 aire">
-				<ul id="lista_clientes" class="customers-wrapper__list">
+				<div id="lista_clientes" class="customers-wrapper__list">
 					<script>
 						function getCustomers() {
 							const lista_clientes = document.getElementById('lista_clientes');
@@ -167,7 +167,41 @@
 							request.onload = () => {
 								const customers = request.response;
 								customers.forEach(client => {
-									lista_clientes.innerHTML += '<li class="work-wrapper__customers-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></li>';
+									lista_clientes.innerHTML += '<div class="work-wrapper__customers-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></div>';
+								});
+								$('#lista_clientes').slick({
+									dots: true,
+									infinite: true,
+									speed: 300,
+									slidesToShow: 4,
+									slidesToScroll: 1,
+									autoplay: true,
+									autoplaySpeed: 2000,
+									responsive: [
+										{
+										breakpoint: 1024,
+										settings: {
+											slidesToShow: 3,
+											slidesToScroll: 3,
+											infinite: true,
+											dots: true
+										}
+										},
+										{
+										breakpoint: 600,
+										settings: {
+											slidesToShow: 2,
+											slidesToScroll: 2
+										}
+										},
+										{
+										breakpoint: 480,
+										settings: {
+											slidesToShow: 1,
+											slidesToScroll: 1
+										}
+										}
+									]
 								});
 							}
 						}

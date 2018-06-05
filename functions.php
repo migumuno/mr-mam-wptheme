@@ -127,14 +127,6 @@ function mr_mam_scripts() {
 	$version = filemtime( dirname(__FILE__) . '/css/custom.css' );
 	wp_enqueue_style( 'mr-mam-custom', get_template_directory_uri() . '/css/custom.css', array( 'mr-mam-style' ), $version );
 	
-	// Estilos específicos de páginas
-	if( is_page( 'home' ) ) :
-		$version = filemtime( dirname(__FILE__) . '/css/home.css' );
-		wp_enqueue_style( 'mr-mam-home', get_template_directory_uri() . '/css/home.css', array( 'mr-mam-custom' ), $version );
-		wp_enqueue_script( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.min.js', array(), '1.8.1', true );
-		wp_enqueue_style( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.min.js', array(), '1.8.1' );
-	endif;
-
 	// Fuente Quicksand de Google
 	wp_enqueue_style( 'google-font-quicksand', 'https://fonts.googleapis.com/css?family=Quicksand' );
 
@@ -147,6 +139,14 @@ function mr_mam_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
+	
+	// Estilos específicos de páginas
+	if( is_page( 'home' ) ) :
+		$version = filemtime( dirname(__FILE__) . '/css/home.css' );
+		wp_enqueue_style( 'mr-mam-home', get_template_directory_uri() . '/css/home.css', array( 'mr-mam-custom' ), $version );
+		wp_enqueue_script( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.min.js', array('jquery'), '1.8.1', true );
+		wp_enqueue_style( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.css', array(), '1.8.1' );
+	endif;
 }
 add_action( 'wp_enqueue_scripts', 'mr_mam_scripts' );
 
