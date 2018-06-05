@@ -170,7 +170,7 @@
 								lista_clientes.innerHTML += '<div class="work-wrapper__customers-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></div>';
 							});
 							jQuery('#lista_clientes').slick({
-								dots: true,
+								dots: false,
 								infinite: true,
 								speed: 300,
 								slidesToShow: 4,

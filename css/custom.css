@@ -554,3 +554,12 @@ input[type='submit']:hover {
 #otros-text {
 	display: none;
 }
+
+/* Slick */
+.slick-initialized .slick-slide {
+    text-align: center;
+}
+
+.slick-slide img {
+    display: inline!important;
+}
