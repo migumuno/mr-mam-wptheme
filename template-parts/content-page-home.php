@@ -181,14 +181,9 @@
 
 	<section id="about" class="aire">
 		<div class="row about-wrapper container">
-			<div class="col-md-6 about-wrapper__image">
-				<img src="<?=get_stylesheet_directory_uri()?>/img/escritorio3.jpg" alt="foto de Mr. Mam Miguel Ángel Muñoz Viejo">
-			</div>
-			<div class="col-md-6 about-wrapper__text">
-				<h2>Sobre mi</h2>
-				<h3>Emprendedor & Friki</h3>
-				<p>Socio fundador de Devialia Solutions cofundador de Raíz Grupo Digital, formado como ingeniero informático por la UCM y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera. Dirijo el departamento técnico y los proyectos de desarrollo tanto de Devialia como de Raíz y soy del pensamiento de que para dirigir hay que saber y, para enseñar, todavía más.</p>
-			</div>
+			<h2>Sobre mi</h2>
+			<h3>Emprendedor & Friki</h3>
+			<p>Socio fundador de Devialia Solutions cofundador de Raíz Grupo Digital, formado como ingeniero informático por la UCM y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera. Dirijo el departamento técnico y los proyectos de desarrollo tanto de Devialia como de Raíz y soy del pensamiento de que para dirigir hay que saber y, para enseñar, todavía más.</p>
 		</div>
 	</section>
 

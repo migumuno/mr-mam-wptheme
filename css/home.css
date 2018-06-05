@@ -75,6 +75,8 @@
     text-align: center;
 }
 
+/* Customers */
+
 #customers h2 {
     text-align: center;
 }
@@ -95,6 +97,12 @@
 #customers .customers-wrapper__list li {
     display: inline-block;
     padding: 20px;
+}
+
+/* About me */
+
+#about .about-wrapper {
+    text-align: center;
 }
 
 /* Responsive */
