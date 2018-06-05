@@ -83,7 +83,7 @@
 			</div>
 			<div class="col-md-6 welcome-wrapper__text">
 				<p>Hola, Soy Miguel Ángel Muñoz Viejo.</p>
-				<p>Contrátame para construir una web alucinante. Echa un ojo a mi trabajo, leete alguno de mis artículos o ponte en contacto conmigo ( <a href="mailto:hey@mistermam.com">hey@mistermam.com</a> | <a href="tel:+34696984784">+34 696 984 784</a> ) y nos tomamos un café.</p>
+				<p>Contrátame para construir una web alucinante. Echa un ojo sobre quién soy, leete alguno de mis artículos o ponte en contacto conmigo ( <a href="mailto:hey@mistermam.com">hey@mistermam.com</a> | <a href="tel:+34696984784">+34 696 984 784</a> ) y nos tomamos un café.</p>
 			</div>
 		</div>
 	</section>
@@ -93,7 +93,7 @@
 			<div class="col-md-6 who_i_am-wrapper__text">
 				<h2>Quién soy</h2>
 				<h3>Full Stack Developer</h3>
-				<p>Socio fundador de Devialia Solutions cofundador de Raíz Grupo Digital, formado como ingeniero informático por la UCM y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera. Dirijo el departamento técnico y los proyectos de desarrollo tanto de Devialia como de Raíz y soy del pensamiento de que para dirigir hay que saber y, para enseñar, todavía más.</p>
+				<p>He sido socio fundador de Devialia Solutions y cofundador de Raíz Grupo Digital, formado como ingeniero informático por la UCM y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera. Dejé mi empresa </p>
 			</div>
 			<div class="col-md-6 who_i_am-wrapper__image">
 				<img src="<?=get_stylesheet_directory_uri()?>/img/yo2.jpg" alt="foto de Mr. Mam Miguel Ángel Muñoz Viejo">
@@ -105,8 +105,8 @@
 		<div class="row work-wrapper container">
 			<div class="work-wrapper__text aire">
 				<h2>Trabajo</h2>
-				<p>Soy un full stack developer, lo que significa que tengo conocimientos tanto de la parte de back-end como de la parte de front-end. Defensor absoluto del código libre e intentando compartir cada día más cosas con el resto del mundo.</p>
-				<p>He sido director de desarrollo durante varios años en diversas empresas y he dirigido y ejecutado multitud de proyectos de diferentes tipos y con diferentes tecnologías. Tras la carrera, inicié mi camino desarrollando para web con PHP y en el camino me enamoré de WordPress (al principio más odio que amor ;)). He trabajado mucho con HTML5, CSS3 y JavaScript y me fascina toda la tecnología que está saliendo entorno a este último (NodeJS, React, AngularJS…).</p>
+				<p>Soy full stack developer, lo que significa que tengo conocimientos tanto de la parte de back-end como de la parte de front-end. Defensor absoluto del código libre e intentando compartir cada día más cosas con el resto del mundo.</p>
+				<p>He sido director de desarrollo durante varios años en diversas empresas y he dirigido y ejecutado multitud de proyectos de diferentes tipos y con diferentes tecnologías. Tras la carrera, inicié mi camino desarrollando para web con PHP y en el camino me enamoré de WordPress (al principio más odio que amor ;)). En el front-end HTML5, CSS3 y JavaScript son mi día a día y me fascina toda la tecnología que está saliendo entorno a este último (NodeJS, React, AngularJS…).</p>
 			</div>
 			<div class="work-wrapper__skills aire">
 				<h3>Habilidades</h3>
@@ -214,17 +214,12 @@
 		<div class="row about-wrapper container">
 			<h2>Sobre mi</h2>
 			<h3>Emprendedor & Friki</h3>
-			<p>Socio fundador de Devialia Solutions cofundador de Raíz Grupo Digital, formado como ingeniero informático por la UCM y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera. Dirijo el departamento técnico y los proyectos de desarrollo tanto de Devialia como de Raíz y soy del pensamiento de que para dirigir hay que saber y, para enseñar, todavía más.</p>
+			<p>Emprendedor de nacimiento y friki de la vida, me puedo pasar horas e incluso días pegado a un ordenador (muchas Euskal y Campus party y fast coding) aprendiendo nuevas cosas o desarrollando nuevos proyectos. Mi frikismo no solo se queda en lo profesional, mi casa está llena de drones, robot limpiador, Raspberry, domótica… me vuelve loco la tecnología. Soy una persona <a href="">multipotencial</a> pero encontré mi pasión en la programación ya que me permite emprender muchos de los proyectos que me planteo.
+Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un campo de golfo o pegando tiros en un campo de airsoft (me encantan la estrategia y el compañerismo).</p>
 		</div>
 	</section>
 
 	<section id="blog" class="aire">
 
 	</section>
-
-	<div class="entry-content">
-		<?php
-		the_content();
-		?>
-	</div><!-- .entry-content -->
 </section><!-- #post-<?php the_ID(); ?> -->
