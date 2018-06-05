@@ -68,7 +68,9 @@
 	<section id="welcome" class="aire">
 		<div class="row welcome-wrapper container">
 			<div class="col-md-6 welcome-wrapper__image">
-				<img src="<?=get_stylesheet_directory_uri()?>/img/logo.jpg" alt="logo Mr. Mam diseño y programación">
+				<img src="<?=get_stylesheet_directory_uri()?>/img/avatar.png" alt="logo Mr. Mam diseño y programación">
+				<h1>< Mr. Mam ></h1>
+				<h2>Diseño y programación</h2>
 			</div>
 			<div class="col-md-6 welcome-wrapper__text">
 				<p>Hola, Soy Miguel Ángel Muñoz Viejo.</p>
