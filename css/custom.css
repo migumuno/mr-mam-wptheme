@@ -563,3 +563,7 @@ input[type='submit']:hover {
 .slick-slide img {
     display: inline!important;
 }
+
+.slick-prev:before, .slick-next:before {
+    color: #1F1F1F;
+}
