@@ -93,6 +93,10 @@
     text-align: center;
 }
 
+#work .work__skills-title {
+    border-bottom: 1px solid orange;
+}
+
 /* Customers */
 
 #customers {
@@ -161,6 +165,14 @@
         margin-left: calc(calc(100% / 3) / 2);
         width: calc(100% / 3 * 2);
         text-align: center;
+    }
+
+    #work .work-wrapper__skills {
+        border-top: 1px solid orange;
+    }
+
+    #work .work__skills-title {
+        border-bottom: none;
     }
 }
 

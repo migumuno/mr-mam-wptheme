@@ -100,7 +100,7 @@
 			<div class="col-md-6 who_i_am-wrapper__text">
 				<h2>Quién soy</h2>
 				<h3>Full Stack Developer</h3>
-				<p>He sido socio fundador de Devialia Solutions y cofundador de Raíz Grupo Digital, formado como ingeniero informático por la UCM y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera.</p>
+				<p>He sido socio fundador de Devialia Solutions y cofundador de Raíz Grupo Digital, formado como ingeniero informático y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera.</p>
 			</div>
 			<div class="col-md-6 who_i_am-wrapper__image">
 				<img src="<?=get_stylesheet_directory_uri()?>/img/yo2.jpg" alt="foto de Mr. Mam Miguel Ángel Muñoz Viejo">
@@ -116,41 +116,33 @@
 				<p>He sido director de desarrollo durante varios años en diversas empresas y he dirigido y ejecutado multitud de proyectos de diferentes tipos y con diferentes tecnologías. Tras la carrera, inicié mi camino desarrollando para web con PHP y en el camino me enamoré de WordPress (al principio más odio que amor ;)). En el front-end HTML5, CSS3 y JavaScript son mi día a día y me fascina toda la tecnología que está saliendo entorno a este último (NodeJS, React, AngularJS…).</p>
 			</div>
 			<div class="work-wrapper__skills aire">
-				<h3>Habilidades</h3>
-				<div class="col-md-6 row aire">
-					<div class="col-sm-4">
-						<p>Back-end</p>
-					</div>
-					<div class="col-sm-8">
-						<ul>
-							<li class="work-wrapper__skills-list__item">PHP</li>
-							<li class="work-wrapper__skills-list__item">NodeJS</li>
-							<li class="work-wrapper__skills-list__item">MySQL</li>
-							<li class="work-wrapper__skills-list__item">MongoDB</li>
-							<li class="work-wrapper__skills-list__item">Linux</li>
-							<li class="work-wrapper__skills-list__item"><span>L</span> Express</li>
-							<li class="work-wrapper__skills-list__item"><span>L</span> WordPress</li>
-						</ul>
-					</div>
+				<div class="col-md-2 work__skills-title"><h3>Habilidades</h3></div>
+				<div class="col-xs-6 col-md-5 work__skills-col1 row aire">
+					<strong>Back-end</strong>
+					<ul>
+						<li class="work-wrapper__skills-list__item">PHP</li>
+						<li class="work-wrapper__skills-list__item">NodeJS</li>
+						<li class="work-wrapper__skills-list__item">MySQL</li>
+						<li class="work-wrapper__skills-list__item">MongoDB</li>
+						<li class="work-wrapper__skills-list__item">Linux</li>
+						<li class="work-wrapper__skills-list__item"><span>L</span> Express</li>
+						<li class="work-wrapper__skills-list__item"><span>L</span> WordPress</li>
+					</ul>
 				</div>
-				<div class="col-md-6 row aire">
-					<div class="col-sm-4">
-						<p>Front-end</p>
-					</div>
-					<div class="col-sm-8">
-						<ul>
-							<li class="work-wrapper__skills-list__item">JavaScript</li>
-							<li class="work-wrapper__skills-list__item">HTML5</li>
-							<li class="work-wrapper__skills-list__item">CSS3</li>
-							<li class="work-wrapper__skills-list__item">Responsive</li>
-							<li class="work-wrapper__skills-list__item"><span>L</span> jQuery</li>
-							<li class="work-wrapper__skills-list__item"><span>L</span> Bootstrap</li>
-							<li class="work-wrapper__skills-list__item"><span>L</span> Foundation</li>
-							<li class="work-wrapper__skills-list__item"><span>A</span> Google Maps</li>
-							<li class="work-wrapper__skills-list__item"><span>A</span> Facebook</li>
-							<li class="work-wrapper__skills-list__item"><span>A</span> Linkedin</li>
-						</ul>
-					</div>
+				<div class="col-xs-6 col-md-5 work__skills-col2 row aire">
+					<strong>Front-end</strong>
+					<ul>
+						<li class="work-wrapper__skills-list__item">JavaScript</li>
+						<li class="work-wrapper__skills-list__item">HTML5</li>
+						<li class="work-wrapper__skills-list__item">CSS3</li>
+						<li class="work-wrapper__skills-list__item">Responsive</li>
+						<li class="work-wrapper__skills-list__item"><span>L</span> jQuery</li>
+						<li class="work-wrapper__skills-list__item"><span>L</span> Bootstrap</li>
+						<li class="work-wrapper__skills-list__item"><span>L</span> Foundation</li>
+						<li class="work-wrapper__skills-list__item"><span>A</span> Google Maps</li>
+						<li class="work-wrapper__skills-list__item"><span>A</span> Facebook</li>
+						<li class="work-wrapper__skills-list__item"><span>A</span> Linkedin</li>
+					</ul>
 				</div>
 				<small><span>L</span>: Librerías, <span>A</span>: API</small>
 			</div>
