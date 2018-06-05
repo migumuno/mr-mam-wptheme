@@ -579,6 +579,8 @@ body.single {
 
 body.single #primary {
 	max-width: 800px;
+	background-color: #ffffff;
+	padding: 40px;
 }
 
 body.single header {
@@ -586,6 +588,6 @@ body.single header {
 	border-bottom: 1px solid #efefef;
 }
 
-body.single header .post-thumbnail img {
+body.single .post-thumbnail img {
 	width: 100%;
 }

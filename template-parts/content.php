@@ -22,8 +22,7 @@
 			?>
 			<div class="entry-meta">
 				<?php
-				mr_mam_posted_on();
-				mr_mam_posted_by();
+				get_the_date();
 				?>
 			</div><!-- .entry-meta -->
 		<?php endif; ?>
