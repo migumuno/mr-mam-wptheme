@@ -565,5 +565,5 @@ input[type='submit']:hover {
 }
 
 .slick-prev:before, .slick-next:before {
-    color: #1F1F1F;
+    color: #1F1F1F!important;
 }
