@@ -37,6 +37,10 @@
     color: #191919;
 }
 
+#welcome .welcome-wrapper__text ul li > a:hover {
+    color: midnightblue;
+}
+
 #welcome .welcome-wrapper__text p:first-child {
     font-size: 2rem;
 }
