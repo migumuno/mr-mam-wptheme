@@ -15,6 +15,12 @@ small {
 	font-size: 0.8rem;
 }
 
+h1 {
+	color: darkorange;
+	font-size: 3.5em;
+	font-weight: bold;
+}
+
 h2 {
 	font-size: 3rem;
 	padding-top: 10px;
@@ -96,7 +102,7 @@ input[type='submit']:hover {
     padding: 0;
 }
 
-#header h1 {
+#header .header__logo span {
 	color: #333;
 	font-size: 1.2em;
 	font-weight: bold;

@@ -13,7 +13,7 @@
 	function init() {
 		const work = document.getElementById('work');
 		const header = document.getElementById('header');
-		const headerH1 = document.querySelector('#header h1');
+		const headerH1 = document.querySelector('#header .header__logo span');
 		const headerMenuIcon = document.querySelector('.header__menu span');
 		const headerMenuNav = document.querySelector('.header__menu nav');
 		const headerMenu = document.querySelectorAll('#header nav ul > li a');
