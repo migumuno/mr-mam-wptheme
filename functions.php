@@ -130,6 +130,8 @@ function mr_mam_scripts() {
 	// Fuente Quicksand de Google
 	wp_enqueue_style( 'google-font-quicksand', 'https://fonts.googleapis.com/css?family=Quicksand' );
 
+	wp_enqueue_style( 'fontawesome', 'https://use.fontawesome.com/releases/v5.0.13/css/all.css' );
+
 	wp_enqueue_script( 'mr-mam-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20151215', true );
 
 	wp_enqueue_script( 'mr-mam-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20151215', true );

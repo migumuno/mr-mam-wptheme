@@ -33,8 +33,12 @@ p {
     padding: 20px 0;
 }
 
-a {
-    color: orange;
+a, a:focus, a:active, a:visited {
+    color: darkorange;
+}
+
+a:hover {
+    color: midnightblue;
 }
 
 /*section:nth-child(odd){

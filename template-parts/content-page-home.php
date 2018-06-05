@@ -84,6 +84,13 @@
 			<div class="col-md-6 welcome-wrapper__text">
 				<p>Hola, Soy Miguel Ángel Muñoz Viejo.</p>
 				<p>Contrátame para construir una web alucinante. Echa un ojo sobre quién soy, leete alguno de mis artículos o ponte en contacto conmigo ( <a href="mailto:hey@mistermam.com">hey@mistermam.com</a> | <a href="tel:+34696984784">+34 696 984 784</a> ) y nos tomamos un café.</p>
+				<ul>
+					<li class="welcome-icons_list"><a href="mailto:hey@mistermam.com"><i class="fab fa-envelope"></i></a></li>
+					<li class="welcome-icons_list"><a href="tel:+34696984784"><i class="fab fa-phone"></i></a></li>
+					<li class="welcome-icons_list"><a href="https://www.linkedin.com/in/miguelangelmunozviejo/"><i class="fab fa-linkedin-in"></i></a></li>
+					<li class="welcome-icons_list"><a href="https://twitter.com/mrmam_code"><i class="fab fa-twitter"></i></a></li>
+					<li class="welcome-icons_list"><a href="<?=get_stylesheet_directory_uri()?>/docs/cv.pdf" download><i class="fab fa-file-alt"></i></a></li>
+				</ul>
 			</div>
 		</div>
 	</section>
@@ -93,7 +100,7 @@
 			<div class="col-md-6 who_i_am-wrapper__text">
 				<h2>Quién soy</h2>
 				<h3>Full Stack Developer</h3>
-				<p>He sido socio fundador de Devialia Solutions y cofundador de Raíz Grupo Digital, formado como ingeniero informático por la UCM y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera. Dejé mi empresa </p>
+				<p>He sido socio fundador de Devialia Solutions y cofundador de Raíz Grupo Digital, formado como ingeniero informático por la UCM y especialista en tecnologías web. He desarrollado y dirigido proyectos de todos los tamaños para clientes de múltiples sectores y he trabajado con multitud de tecnologías, lo que el proyecto requiera.</p>
 			</div>
 			<div class="col-md-6 who_i_am-wrapper__image">
 				<img src="<?=get_stylesheet_directory_uri()?>/img/yo2.jpg" alt="foto de Mr. Mam Miguel Ángel Muñoz Viejo">

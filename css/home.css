@@ -23,6 +23,14 @@
     font-weight: bold;
 }
 
+#welcome .welcome-wrapper__text ul {
+    text-align: center;
+}
+
+#welcome .welcome-wrapper__text ul li {
+    display: inline-block;
+}
+
 #welcome .welcome-wrapper__text p:first-child {
     font-size: 2rem;
 }
