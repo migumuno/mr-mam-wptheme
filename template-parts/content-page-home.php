@@ -83,13 +83,13 @@
 			</div>
 			<div class="col-md-6 welcome-wrapper__text">
 				<p>Hola, Soy Miguel Ángel Muñoz Viejo.</p>
-				<p>Contrátame para construir una web alucinante. Echa un ojo sobre quién soy, leete alguno de mis artículos o ponte en contacto conmigo ( <a href="mailto:hey@mistermam.com">hey@mistermam.com</a> | <a href="tel:+34696984784">+34 696 984 784</a> ) y nos tomamos un café.</p>
+				<p>Contrátame para construir una web alucinante. Echa un ojo sobre quién soy, leete alguno de mis artículos o ponte en contacto conmigo y nos tomamos un café.</p>
 				<ul>
-					<li class="welcome-icons_list"><a href="mailto:hey@mistermam.com"><i class="fab fa-envelope"></i></a></li>
-					<li class="welcome-icons_list"><a href="tel:+34696984784"><i class="fab fa-phone"></i></a></li>
+					<li class="welcome-icons_list"><a href="mailto:hey@mistermam.com"><i class="fas fa-envelope"></i></a></li>
+					<li class="welcome-icons_list"><a href="tel:+34696984784"><i class="fas fa-phone"></i></a></li>
 					<li class="welcome-icons_list"><a href="https://www.linkedin.com/in/miguelangelmunozviejo/"><i class="fab fa-linkedin-in"></i></a></li>
 					<li class="welcome-icons_list"><a href="https://twitter.com/mrmam_code"><i class="fab fa-twitter"></i></a></li>
-					<li class="welcome-icons_list"><a href="<?=get_stylesheet_directory_uri()?>/docs/cv.pdf" download><i class="fab fa-file-alt"></i></a></li>
+					<li class="welcome-icons_list"><a href="<?=get_stylesheet_directory_uri()?>/docs/cv.pdf" download><i class="fas fa-file-alt"></i></a></li>
 				</ul>
 			</div>
 		</div>
