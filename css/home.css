@@ -165,7 +165,7 @@
 /* Para escritorios medium */
 @media (min-width: 992px) {
     #welcome .welcome-wrapper__text {
-        margin-top: 20px;
+        margin-top: 60px;
     }
 
     #welcome .welcome-wrapper__text ul li {
