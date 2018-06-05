@@ -29,6 +29,7 @@
 
 #welcome .welcome-wrapper__text ul li {
     display: inline-block;
+    padding: 0 20px;
 }
 
 #welcome .welcome-wrapper__text p:first-child {
@@ -126,7 +127,7 @@
 /* Para escritorios medium */
 @media (min-width: 992px) {
     #welcome .welcome-wrapper__text {
-        margin-top: 80px;
+        margin-top: 20px;
     }
 
     #who_i_am {
@@ -153,6 +154,6 @@
 /* Para escritorios large */
 @media (min-width: 1200px) {
     #welcome .welcome-wrapper__text {
-        margin-top: 180px;
+        margin-top: 120px;
     }
 }
