@@ -126,7 +126,7 @@ function mr_mam_scripts() {
 	wp_enqueue_style( 'mr-mam-grid', get_template_directory_uri() . '/css/grid.css', array( 'mr-mam-style' ), $version );
 	$version = filemtime( dirname(__FILE__) . '/css/custom.css' );
 	wp_enqueue_style( 'mr-mam-custom', get_template_directory_uri() . '/css/custom.css', array( 'mr-mam-style' ), $version );
-	
+
 	// Fuente Quicksand de Google
 	wp_enqueue_style( 'google-font-quicksand', 'https://fonts.googleapis.com/css?family=Quicksand' );
 
@@ -146,6 +146,7 @@ function mr_mam_scripts() {
 		wp_enqueue_style( 'mr-mam-home', get_template_directory_uri() . '/css/home.css', array( 'mr-mam-custom' ), $version );
 		wp_enqueue_script( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.min.js', array('jquery'), '1.8.1', true );
 		wp_enqueue_style( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.css', array(), '1.8.1' );
+		wp_enqueue_style( 'mr-mam-slick-theme', get_template_directory_uri() . '/libs/slick/slick-theme.css', array(), '1.8.1' );
 	endif;
 }
 add_action( 'wp_enqueue_scripts', 'mr_mam_scripts' );
