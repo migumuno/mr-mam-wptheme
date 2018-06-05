@@ -97,6 +97,10 @@
     border-bottom: 1px solid orange;
 }
 
+#work .work__skills-list {
+    padding: 0 20px;
+}
+
 /* Customers */
 
 #customers {
