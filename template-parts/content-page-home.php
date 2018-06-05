@@ -118,7 +118,7 @@
 			<div class="work-wrapper__skills aire">
 				<div class="col-md-2 work__skills-title"><h3>Habilidades</h3></div>
 				<div class="col-xs-6 col-md-5 work__skills-list row">
-					<p><b>Back-end</b></p>
+					<p class="work__skills-list__title"><b>Back-end</b></p>
 					<ul>
 						<li class="work-wrapper__skills-list__item">PHP</li>
 						<li class="work-wrapper__skills-list__item">NodeJS</li>
@@ -130,7 +130,7 @@
 					</ul>
 				</div>
 				<div class="col-xs-6 col-md-5 work__skills-list row">
-					<p><b>Front-end</b></p>
+					<p class="work__skills-list__title"><b>Front-end</b></p>
 					<ul>
 						<li class="work-wrapper__skills-list__item">JavaScript</li>
 						<li class="work-wrapper__skills-list__item">HTML5</li>
