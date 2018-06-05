@@ -30,6 +30,11 @@
 #welcome .welcome-wrapper__text ul li {
     display: inline-block;
     padding: 0 20px;
+    font-size: 1.4rem;
+}
+
+#welcome .welcome-wrapper__text ul li > a {
+    color: #191919;
 }
 
 #welcome .welcome-wrapper__text p:first-child {
