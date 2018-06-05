@@ -99,6 +99,7 @@
 
 #work .work__skills-list {
     padding: 0 20px;
+    margin-top: 20px;
 }
 
 #work .work__skills-list__title {
@@ -181,6 +182,10 @@
 
     #work .work__skills-title {
         border-bottom: none;
+    }
+
+    #work .work__skills-list {
+        margin-top: 0;
     }
 }
 
