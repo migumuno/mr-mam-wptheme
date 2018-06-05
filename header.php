@@ -49,6 +49,26 @@
 				</nav>
 			</div>
 		</div>
+		<script>
+			const headerMenuIcon = document.querySelector('.header__menu span');
+			const headerMenuNav = document.querySelector('.header__menu nav');
+			const headerMenu = document.querySelectorAll('#header nav ul > li a');
+			
+			// Se encarga de desplegar y replegar el menú
+			headerMenuIcon.addEventListener( 'click', (e) => {
+				if( headerMenuNav.style.display === 'none' ){
+					headerMenuNav.style.display = 'block';
+				} else {
+					headerMenuNav.style.display = 'none';
+				}
+			} );
+
+			headerMenu.forEach(element => {
+				element.addEventListener('click', e => {
+					headerMenuNav.style.display = 'none';
+				});
+			});
+		</script>
 	</section>
 
 	<section id="content" class="container-fluid">

@@ -43,23 +43,12 @@
 				header.style.borderBottom = '1px solid #efefef';
 			}
 		} );
-		
-		// Se encarga de desplegar y replegar el menú
-		headerMenuIcon.addEventListener( 'click', (e) => {
-			if( headerMenuNav.style.display === 'none' ){
-				headerMenuNav.style.display = 'block';
-			} else {
-				headerMenuNav.style.display = 'none';
-			}
-		} );
 
 		// Añado animación a los clicks del menu
 		headerMenu.forEach(element => {
 			element.addEventListener('click', e => {
-				console.log('click');
 				e.preventDefault();
 				let elementHref = element.hash;
-				console.log(elementHref);
 				let elementDestiny = document.querySelector(elementHref);
 
 				jQuery('html, body').animate( {scrollTop: elementDestiny.offsetTop}, 600 );
