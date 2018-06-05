@@ -571,3 +571,21 @@ input[type='submit']:hover {
 .slick-prev:before, .slick-next:before {
     color: #1F1F1F!important;
 }
+
+/* POSTS */
+body.single {
+	background-color: #efefef;
+}
+
+body.single #primary {
+	max-width: 800px;
+}
+
+body.single header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #efefef;
+}
+
+body.single header .post-thumbnail img {
+	width: 100%;
+}
