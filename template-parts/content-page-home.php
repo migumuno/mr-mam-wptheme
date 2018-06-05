@@ -169,7 +169,7 @@
 								customers.forEach(client => {
 									lista_clientes.innerHTML += '<div class="work-wrapper__customers-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></div>';
 								});
-								$('#lista_clientes').slick({
+								jQuery('#lista_clientes').slick({
 									dots: true,
 									infinite: true,
 									speed: 300,
