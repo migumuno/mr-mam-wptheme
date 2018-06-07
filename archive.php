@@ -18,7 +18,7 @@ get_header();
 				<header class="page-header">
 					<?php
 					$terms = mr_mam_get_terms();
-					echo '<ul class="blog-categories aire">';
+					echo '<ul class="blog-categories">';
 						foreach ($terms as $term) {
 							echo '<li class="blog-categories__item"><a href="'.get_term_link( $term ).'">'.$term->name.'</a></li>';
 						}

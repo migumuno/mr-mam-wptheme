@@ -636,6 +636,10 @@ ul.formas-de-contacto li a:hover {
 	background-color: #fff;
 }
 
+ul.blog-categories {
+	padding-bottom: 20px;
+}
+
 ul.blog-categories > li {
     display: inline-block;
     padding: 10px;
