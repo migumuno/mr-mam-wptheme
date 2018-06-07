@@ -45,6 +45,9 @@
 			get_the_title()
 		) );
 
+		echo 'Si tienes un proyecto en mente o quieres mejorar tu web o simplemente quieres que nos tomemos un café, te dejo por aquí mis formas de contacto.';
+		echo do_shortcode( '[formas_contacto]' );
+
 		wp_link_pages( array(
 			'before' => '<div class="page-links">' . esc_html__( 'Pages:', 'mr-mam' ),
 			'after'  => '</div>',
