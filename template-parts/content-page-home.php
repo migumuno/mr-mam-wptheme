@@ -211,17 +211,10 @@ Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un c
 		?>
 			<section id="blog" class="aire">
 				<div class="blog-wrapper container">
-					<div class="row">
-						<div class="col-md-6 blog-wrapper__image">
-							<img src="<?=get_stylesheet_directory_uri()?>/img/wordpress_bg.jpg" alt="foto de WordPress">
-						</div>
-						<div class="col-md-6 blog-wrapper__text">
-							<h2>Blog</h2>
-							<p>En el blog de Mr. Mam voy a tratar principalmente de temas relacionados con la tecnología, más concretamente con la programación web, aunque también hablaré de cosas útiles para el día a día en tu trabajo y por supuesto las frikadas no pueden faltar.</p>
-							<p>Espero que te guste! ;)</p>
-						</div>
-					</div>
-
+					<h2>Blog</h2>
+					<!--<p>En el blog de Mr. Mam voy a tratar principalmente de temas relacionados con la tecnología, más concretamente con la programación web, aunque también hablaré de cosas útiles para el día a día en tu trabajo y por supuesto las frikadas no pueden faltar.</p>
+					<p>Espero que te guste! ;)</p>-->
+					
 					<ul class="blog-categories">
 						<?php
 						foreach ($terms as $term) {

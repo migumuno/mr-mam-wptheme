@@ -637,7 +637,7 @@ ul.formas-de-contacto li a:hover {
 }
 
 ul.blog-categories {
-	padding-bottom: 20px;
+	padding: 20px 0px;
 }
 
 ul.blog-categories > li {
