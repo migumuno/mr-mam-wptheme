@@ -209,7 +209,18 @@ Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un c
 		</div>
 	</section>
 
-	<section id="blog" class="aire">
-
-	</section>
+	<?php
+	if( function_exists('mr_mam_get_some_posts') ) :
+		$posts = mr_mam_get_some_posts(4);
+		if($posts['success']) :
+		?>
+			<section id="blog" class="aire">
+				<div class="blog-wrapper container">
+					<?=$posts['html']?>
+				</div>
+			</section>
+	<?php
+		endif;
+	endif;
+	?>
 </section><!-- #post-<?php the_ID(); ?> -->
