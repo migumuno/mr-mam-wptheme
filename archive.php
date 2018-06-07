@@ -17,10 +17,17 @@ get_header();
 
 				<header class="page-header">
 					<?php
+					// Obtengo el term actual
+					$current_term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+
 					$terms = mr_mam_get_terms();
 					echo '<ul class="blog-categories">';
+						$class="";
 						foreach ($terms as $term) {
-							echo '<li class="blog-categories__item"><a href="'.get_term_link( $term ).'">'.$term->name.'</a></li>';
+							if($term->term_id == $current_term->term_id):
+								$class=" current";
+							endif;
+							echo '<li class="blog-categories__item'.$class.'"><a href="'.get_term_link( $term ).'">'.$term->name.'</a></li>';
 						}
 					echo '</ul>';
 

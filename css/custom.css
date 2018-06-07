@@ -647,6 +647,10 @@ ul.blog-categories > li {
     color: #fff;
 }
 
+ul.blog-categories > li.current {
+    background-color: midnightblue;
+}
+
 ul.blog-categories > li a {
     color: #fff;
 }
