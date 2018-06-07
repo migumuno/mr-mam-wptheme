@@ -22,8 +22,10 @@ get_header();
 
 					$terms = mr_mam_get_terms();
 					echo '<ul class="blog-categories">';
-						$class="";
 						foreach ($terms as $term) {
+							$class="";
+							print_r($current_term);
+							print_r($term);
 							if($term->term_id == $current_term->term_id):
 								$class=" current";
 							endif;
