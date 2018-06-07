@@ -216,10 +216,8 @@ Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un c
 					<p>Espero que te guste! ;)</p>
 					<ul class="blog-categories">
 						<?php
-						for ($i=0; $i < count($terms); $i++) {
-							echo $i;
-							print_r($terms[$i]);
-							echo '<li class="blog-categories__item"><a href="'.get_term_link( $terms[$i] ).'">'.$terms[$i]->name.'</a></li>';
+						foreach ($terms as $term) {
+							echo '<li class="blog-categories__item"><a href="'.get_term_link( $term ).'">'.$term->name.'</a></li>';
 						}
 						?>
 					</ul>
