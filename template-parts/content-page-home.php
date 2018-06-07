@@ -205,7 +205,7 @@ Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un c
 
 	<?php
 	if( function_exists('mr_mam_get_some_posts') ) :
-		$posts = mr_mam_get_some_posts(3);
+		$posts = mr_mam_get_some_posts(1);
 		if($posts['success']) :
 		?>
 			<section id="blog" class="aire">
