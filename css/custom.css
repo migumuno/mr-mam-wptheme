@@ -600,6 +600,7 @@ body.single .post-thumbnail img {
 
 ul.formas-de-contacto {
 	list-style: none;
+	text-align: center;
 }
 
 ul.formas-de-contacto li {
