@@ -207,12 +207,20 @@ Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un c
 	if( function_exists('mr_mam_get_some_posts') ) :
 		$posts = mr_mam_get_some_posts(4);
 		if($posts['success']) :
+			$terms = mr_mam_get_terms();
 		?>
 			<section id="blog" class="aire">
 				<div class="blog-wrapper container">
 					<h2>Blog</h2>
-					<p>En el blog de Mr. Mam voy a tratar principalmente de temas relacionados con la tecnología, más concretamente con la programación web, aunque también hablaré de cosas útiles para el día a día en tu trabajo y por supuesto las frikadas no pueden faltar. Espero que te guste!</p>
+					<p>En el blog de Mr. Mam voy a tratar principalmente de temas relacionados con la tecnología, más concretamente con la programación web, aunque también hablaré de cosas útiles para el día a día en tu trabajo y por supuesto las frikadas no pueden faltar.</p>
 					<p>Espero que te guste! ;)</p>
+					<ul class="blog-categories">
+						<?php
+						for ($i=0; $i < count($terms); $i++) {
+							echo '<li class="blog-categories__item"><a href="'.get_term_link( $terms[$i] ).'">'.$terms[$i]->name.'</a></li>';
+						}
+						?>
+					</ul>
 					<?=$posts['html']?>
 				</div>
 			</section>
