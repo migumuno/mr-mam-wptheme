@@ -211,6 +211,8 @@ Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un c
 			<section id="blog" class="aire">
 				<div class="blog-wrapper container">
 					<h2>Blog</h2>
+					<p>En el blog de Mr. Mam voy a tratar principalmente de temas relacionados con la tecnología, más concretamente con la programación web, aunque también hablaré de cosas útiles para el día a día en tu trabajo y por supuesto las frikadas no pueden faltar. Espero que te guste!</p>
+					<p>Espero que te guste! ;)</p>
 					<?=$posts['html']?>
 				</div>
 			</section>

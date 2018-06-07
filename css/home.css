@@ -170,6 +170,10 @@
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f9f9f9',GradientType=0 ); /* IE6-9 */
 }
 
+#blog .blog-wrapper {
+    text-align: center;
+}
+
 /* Responsive */
 
 /* Para escritorios medium */

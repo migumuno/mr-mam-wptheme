@@ -40,7 +40,8 @@ p {
 }
 
 a, a:focus, a:active, a:visited {
-    color: darkorange;
+	color: darkorange;
+	text-decoration: none;
 }
 
 a:hover {
@@ -622,7 +623,7 @@ ul.formas-de-contacto li a:hover {
 }
 
 .mr-mam-blog-posts__post h3 {
-	padding: 10px;
+	padding: 20px;
 	width: 100%;
 	background-color: #fff;
 }
