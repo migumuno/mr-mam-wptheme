@@ -24,9 +24,7 @@ get_header();
 					echo '<ul class="blog-categories">';
 						foreach ($terms as $term) {
 							$class="";
-							print_r($current_term);
-							print_r($term);
-							if($term->term_id == $current_term->term_id):
+							if($term->term_id == $current_term):
 								$class=" current";
 							endif;
 							echo '<li class="blog-categories__item'.$class.'"><a href="'.get_term_link( $term ).'">'.$term->name.'</a></li>';
