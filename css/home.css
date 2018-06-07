@@ -174,17 +174,6 @@
     text-align: center;
 }
 
-#blog ul.blog-categories > li {
-    display: inline-block;
-    padding: 10px;
-    background-color: darkorange;
-    color: #fff;
-}
-
-#blog ul.blog-categories > li a {
-    color: #fff;
-}
-
 /* Responsive */
 
 /* Para escritorios medium */

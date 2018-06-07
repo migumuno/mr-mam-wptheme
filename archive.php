@@ -11,37 +11,44 @@ get_header();
 ?>
 
 	<div id="primary" class="content-area">
-		<main id="main" class="site-main">
+		<main id="main" class="site-main container">
 
-		<?php if ( have_posts() ) : ?>
+			<?php if ( have_posts() ) : ?>
 
-			<header class="page-header">
+				<header class="page-header">
+					<?php
+					$terms = mr_mam_get_terms();
+					echo '<ul class="blog-categories">';
+						foreach ($terms as $term) {
+							echo '<li class="blog-categories__item"><a href="'.get_term_link( $term ).'">'.$term->name.'</a></li>';
+						}
+					echo '</ul>';
+
+					the_archive_title( '<h1 class="page-title">', '</h1>' );
+					the_archive_description( '<div class="archive-description">', '</div>' );
+					?>
+				</header><!-- .page-header -->
+
 				<?php
-				the_archive_title( '<h1 class="page-title">', '</h1>' );
-				the_archive_description( '<div class="archive-description">', '</div>' );
-				?>
-			</header><!-- .page-header -->
+				/* Start the Loop */
+				while ( have_posts() ) :
+					the_post();
 
-			<?php
-			/* Start the Loop */
-			while ( have_posts() ) :
-				the_post();
+					echo '<div class="mr-mam-blog-posts__post col-xs-12 col-sm-6 col-md-4 col-lg-3">
+						'.get_the_post_thumbnail().'
+						<h3><a href="'.get_permalink().'">'.get_the_title().'</a></h3>
+					</div>';
 
-				echo '<div class="mr-mam-blog-posts__post col-xs-12 col-sm-6 col-md-4 col-lg-3">
-					'.get_the_post_thumbnail().'
-					<h3><a href="'.get_permalink().'">'.get_the_title().'</a></h3>
-				</div>';
+				endwhile;
 
-			endwhile;
+				the_posts_navigation();
 
-			the_posts_navigation();
+			else :
 
-		else :
+				get_template_part( 'template-parts/content', 'none' );
 
-			get_template_part( 'template-parts/content', 'none' );
-
-		endif;
-		?>
+			endif;
+			?>
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

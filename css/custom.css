@@ -580,17 +580,20 @@ input[type='submit']:hover {
 }
 
 /* POSTS */
-body.single {
+body.single, body.archive {
 	background-color: #efefef;
 }
 
-body.single #primary {
-	max-width: 800px;
+body.single #primary, body.archive #primary {
 	background-color: #ffffff;
 	padding: 40px;
 }
 
-body.single header {
+body.single #primary {
+	max-width: 800px;
+}
+
+body.single header, body.archive header {
 	padding-bottom: 20px;
 	border-bottom: 1px solid #efefef;
 }
@@ -626,4 +629,15 @@ ul.formas-de-contacto li a:hover {
 	padding: 20px;
 	width: 100%;
 	background-color: #fff;
+}
+
+ul.blog-categories > li {
+    display: inline-block;
+    padding: 10px;
+    background-color: darkorange;
+    color: #fff;
+}
+
+ul.blog-categories > li a {
+    color: #fff;
 }
