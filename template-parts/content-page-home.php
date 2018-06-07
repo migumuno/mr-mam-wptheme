@@ -208,7 +208,6 @@ Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un c
 		$posts = mr_mam_get_some_posts(4);
 		if($posts['success']) :
 			$terms = mr_mam_get_terms();
-			echo count($terms);
 		?>
 			<section id="blog" class="aire">
 				<div class="blog-wrapper container">
@@ -218,6 +217,7 @@ Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un c
 					<ul class="blog-categories">
 						<?php
 						for ($i=0; $i < count($terms); $i++) {
+							print_r($terms[$i]);
 							echo '<li class="blog-categories__item"><a href="'.get_term_link( $terms[$i] ).'">'.$terms[$i]->name.'</a></li>';
 						}
 						?>
