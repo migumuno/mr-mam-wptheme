@@ -75,13 +75,7 @@
 			<div class="col-md-6 welcome-wrapper__text">
 				<p>Hola, Soy Miguel Ángel Muñoz Viejo.</p>
 				<p>Contrátame para construir una web alucinante. Echa un ojo sobre quién soy, leete alguno de mis artículos o ponte en contacto conmigo y nos tomamos un café.</p>
-				<ul>
-					<li class="welcome-icons_list"><a href="mailto:hey@mistermam.com"><i class="fas fa-envelope"></i></a></li>
-					<li class="welcome-icons_list"><a href="tel:+34696984784"><i class="fas fa-phone"></i></a></li>
-					<li class="welcome-icons_list"><a href="https://www.linkedin.com/in/miguelangelmunozviejo/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-					<li class="welcome-icons_list"><a href="https://twitter.com/mrmam_code" target="_blank"><i class="fab fa-twitter"></i></a></li>
-					<li class="welcome-icons_list"><a href="<?=get_stylesheet_directory_uri()?>/docs/cv.pdf" download target="_blank"><i class="fas fa-file-alt"></i></a></li>
-				</ul>
+				<?php do_shortcode( '[formas_contacto]' ) ?>
 			</div>
 		</div>
 	</section>

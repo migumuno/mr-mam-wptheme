@@ -597,3 +597,21 @@ body.single header {
 body.single .post-thumbnail img {
 	width: 100%;
 }
+
+.formas-de-contacto ul {
+	list-style: none;
+}
+
+.formas-de-contacto ul li {
+	padding: 0 20px;
+	display: inline-block;
+	font-size: 1.4rem;
+}
+
+.formas-de-contacto ul li a {
+	color: #191919;
+}
+
+.formas-de-contacto ul li a:hover {
+	color: midnightblue;
+}
