@@ -35,7 +35,7 @@
 	<section id="header" class="container-fluid">
 		<div class="row container">
 			<div class="col-xs-6 header__logo">
-				<span>< Mr. Mam ></span>
+				<a href="/">< Mr. Mam ></a>
 			</div>
 			<div class="col-xs-6 header__menu">
 				<span class="hidden-md hidden-lg">☰ Menú</span>
