@@ -626,6 +626,10 @@ ul.formas-de-contacto li a:hover {
 	color: midnightblue;
 }
 
+.mr-mam-blog-posts__post {
+	padding: 5px;
+}
+
 .mr-mam-blog-posts__post img {
 	width: 100%;
 }
@@ -642,7 +646,8 @@ ul.blog-categories {
 
 ul.blog-categories > li {
     display: inline-block;
-    padding: 10px;
+	padding: 10px;
+	margin: 0px 5px;
     background-color: darkorange;
     color: #fff;
 }
