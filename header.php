@@ -62,10 +62,12 @@
 					headerMenuNav.style.display = 'none';
 				}
 			} );
-
+			
 			headerMenu.forEach(element => {
 				element.addEventListener('click', e => {
-					headerMenuNav.style.display = 'none';
+					if( headerMenuIcon.display !== 'none' ) {
+						headerMenuNav.style.display = 'none';
+					}
 				});
 			});
 		</script>
