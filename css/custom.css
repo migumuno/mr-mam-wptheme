@@ -617,14 +617,12 @@ ul.formas-de-contacto li a:hover {
 	color: midnightblue;
 }
 
-.mr-mam-blog-posts__post {
-	background-color: #fff;
-}
-
 .mr-mam-blog-posts__post img {
 	width: 100%;
 }
 
 .mr-mam-blog-posts__post h3 {
 	padding: 10px;
+	width: 100%;
+	background-color: #fff;
 }
