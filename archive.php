@@ -18,7 +18,7 @@ get_header();
 				<header class="page-header">
 					<?php
 					// Obtengo el term actual
-					$current_term = get_term_by( 'slug', get_query_var( 'term' ), get_query_var( 'taxonomy' ) );
+					$current_term = get_queried_object()->term_id;
 
 					$terms = mr_mam_get_terms();
 					echo '<ul class="blog-categories">';
