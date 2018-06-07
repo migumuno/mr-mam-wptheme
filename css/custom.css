@@ -585,17 +585,22 @@ body.single, body.archive {
 }
 
 body.single #primary, body.archive #primary {
-	background-color: #ffffff;
 	padding: 40px;
 }
 
 body.single #primary {
 	max-width: 800px;
+	background-color: #ffffff;
 }
 
-body.single header, body.archive header {
+body.single header {
 	padding-bottom: 20px;
 	border-bottom: 1px solid #efefef;
+}
+
+body.archive header {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #333333;
 }
 
 body.single .post-thumbnail img {
