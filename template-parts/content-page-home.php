@@ -188,7 +188,9 @@
 						}
 					}
 					
-					getCustomers();
+					jQuery(document).ready(() => {
+						getCustomers();
+					});
 				</script>
 			</div>
 		</div>
