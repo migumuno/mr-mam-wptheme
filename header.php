@@ -65,7 +65,7 @@
 			
 			headerMenu.forEach(element => {
 				element.addEventListener('click', e => {
-					if( headerMenuIcon.display !== 'none' ) {
+					if( jQuery('.header__menu span').css('display') !== 'none' ) {
 						headerMenuNav.style.display = 'none';
 					}
 				});
