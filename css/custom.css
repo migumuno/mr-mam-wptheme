@@ -580,8 +580,18 @@ input[type='submit']:hover {
 }
 
 /* POSTS */
-body.single, body.archive {
+body.single {
 	background-color: #efefef;
+}
+
+body.archive {
+	background-image: url(../img/blog_bg.svg);
+    background-repeat: no-repeat;
+    background-position-y: -70px;
+}
+
+body.archive h1 {
+	color: #191919;
 }
 
 body.single #primary, body.archive #primary {
