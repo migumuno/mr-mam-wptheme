@@ -136,7 +136,7 @@
 
 	<section id="about" class="aire">
 		<div class="row about-wrapper container">
-			<h2>Sobre mi</h2>
+			<h2>Sobre mí</h2>
 			<h3>Emprendedor & Friki</h3>
 			<p>Emprendedor de nacimiento y friki de la vida, me puedo pasar horas e incluso días pegado a un ordenador (muchas Euskal y Campus party y fast coding) aprendiendo nuevas cosas o desarrollando nuevos proyectos. Mi frikismo no solo se queda en lo profesional, mi casa está llena de drones, robot limpiador, Raspberry, domótica… me vuelve loco la tecnología. Soy una persona <a href="https://youtu.be/EaS7jybfmcM" target="_blank">multipotencial</a> pero encontré mi pasión en la programación ya que me permite emprender muchos de los proyectos que me planteo.
 Si me preguntas por mis hobbies, me encontrarás en alguna pista de pádel, un campo de golf o pegando tiros en un campo de airsoft (me encantan la estrategia y el compañerismo).</p>
