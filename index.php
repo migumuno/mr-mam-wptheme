@@ -25,7 +25,7 @@ get_header();
 			if ( is_home() && ! is_front_page() ) :
 				?>
 				<header class="page-header">
-					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+					<h1 class="page-title"><?php single_post_title(); ?></h1>
 					<?php
 					$terms = mr_mam_get_terms();
 					echo '<ul class="blog-categories">';
