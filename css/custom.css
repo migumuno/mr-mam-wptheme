@@ -584,17 +584,17 @@ body.single {
 	background-color: #efefef;
 }
 
-body.archive {
+body.blog, body.archive {
 	background-image: url(../img/blog_bg.svg);
     background-repeat: no-repeat;
     background-position-y: -70px;
 }
 
-body.archive h1 {
+body.blog h1, body.archive h1 {
 	color: #191919;
 }
 
-body.single #primary, body.archive #primary {
+body.blog #primary, body.single #primary, body.archive #primary {
 	padding: 40px;
 }
 
@@ -608,7 +608,7 @@ body.single header {
 	border-bottom: 1px solid #efefef;
 }
 
-body.archive header {
+body.blog header, body.archive header {
 	padding-bottom: 20px;
 	border-bottom: 1px solid #333333;
 }
