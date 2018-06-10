@@ -17,6 +17,9 @@ get_header();
 
 				<header class="page-header">
 					<?php
+					the_archive_title( '<h1 class="page-title">', '</h1>' );
+					the_archive_description( '<div class="archive-description">', '</div>' );
+
 					// Obtengo el term actual
 					$current_term = get_queried_object()->term_id;
 
@@ -30,9 +33,6 @@ get_header();
 							echo '<li class="blog-categories__item'.$class.'"><a href="'.get_term_link( $term ).'">'.$term->name.'</a></li>';
 						}
 					echo '</ul>';
-
-					the_archive_title( '<h1 class="page-title">', '</h1>' );
-					the_archive_description( '<div class="archive-description">', '</div>' );
 					?>
 				</header><!-- .page-header -->
 
