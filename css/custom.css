@@ -587,7 +587,6 @@ body.single {
 body.blog, body.archive {
 	background-image: url(../img/blog_bg.svg);
     background-repeat: no-repeat;
-    background-position-y: -70px;
 }
 
 body.blog h1, body.archive h1 {
@@ -669,3 +668,15 @@ ul.blog-categories > li.current {
 ul.blog-categories > li a {
     color: #fff;
 }
+
+/* Para escritorios medium */
+@media (min-width: 992px) {
+	body.blog, body.archive {
+		background-position-y: -70px;
+	}
+}
+
+/* Para escritorios large */
+@media (min-width: 1200px) {
+    
+} 

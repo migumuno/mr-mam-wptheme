@@ -165,7 +165,6 @@
 #blog {
     background-image: url(../img/blog_bg.svg);
     background-repeat: no-repeat;
-    background-position-y: -70px;
 }
 
 #blog .blog-wrapper {
@@ -233,6 +232,10 @@
 
     #work .work__skills-list {
         margin-top: 0;
+    }
+
+    #blog {
+        background-position-y: -70px;
     }
 }
 
