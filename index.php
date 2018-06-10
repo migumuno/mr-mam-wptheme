@@ -39,6 +39,7 @@ get_header();
 			endif;
 
 			/* Start the Loop */
+			echo '<div class="row posts-loop aire">';
 			while ( have_posts() ) :
 				the_post();
 
@@ -48,6 +49,7 @@ get_header();
 				</div>';
 
 			endwhile;
+			echo '</div>';
 
 			the_posts_navigation();
 
