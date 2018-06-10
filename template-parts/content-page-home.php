@@ -75,7 +75,7 @@
 			<div class="col-md-6 welcome-wrapper__text">
 				<p>Hola, Soy Miguel Ángel Muñoz Viejo.</p>
 				<p>Contrátame para construir una web alucinante. Echa un ojo sobre quién soy, léete alguno de mis artículos o ponte en contacto conmigo y nos tomamos un café.</p>
-				<?php do_shortcode( '[formas_contacto]' ) ?>
+				<?php echo do_shortcode( '[mr_mam_formas_contacto]' ) ?>
 			</div>
 		</div>
 	</section>
