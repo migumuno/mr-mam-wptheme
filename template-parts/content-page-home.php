@@ -134,68 +134,6 @@
 		</div>
 	</section>
 
-	<section id="customers" class="aire">
-		<div class="row customers-wrapper container">
-			<h2>Algunos clientes</h2>
-			<div class="col-xs-12 aire">
-				<div id="lista_clientes" class="customers-wrapper__list"></div>
-				<script>
-					function getCustomers() {
-						const lista_clientes = document.getElementById('lista_clientes');
-						const customers_json = "<?=get_stylesheet_directory_uri() . '/json/customers.json'?>";
-						var request = new XMLHttpRequest();
-						
-						request.open( 'GET', customers_json );
-						request.responseType = 'json';
-						request.send();
-						request.onload = () => {
-							const customers = request.response;
-							customers.forEach(client => {
-								lista_clientes.innerHTML += '<div class="work-wrapper__customers-list__item"><img src="<?=get_stylesheet_directory_uri()?>/img/clientes/' + client.img + '" alt="' + client.name + '"></div>';
-							});
-							jQuery('#lista_clientes').slick({
-								dots: false,
-								infinite: true,
-								speed: 300,
-								slidesToShow: 4,
-								slidesToScroll: 1,
-								autoplay: true,
-								autoplaySpeed: 1000,
-								responsive: [
-									{
-									breakpoint: 1024,
-									settings: {
-										slidesToShow: 3,
-										slidesToScroll: 3
-									}
-									},
-									{
-									breakpoint: 600,
-									settings: {
-										slidesToShow: 2,
-										slidesToScroll: 2
-									}
-									},
-									{
-									breakpoint: 480,
-									settings: {
-										slidesToShow: 1,
-										slidesToScroll: 1
-									}
-									}
-								]
-							});
-						}
-					}
-					
-					jQuery(document).ready(() => {
-						getCustomers();
-					});
-				</script>
-			</div>
-		</div>
-	</section>
-
 	<section id="about" class="aire">
 		<div class="row about-wrapper container">
 			<h2>Sobre mi</h2>
