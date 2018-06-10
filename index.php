@@ -20,12 +20,21 @@ get_header();
 
 		<?php
 		if ( have_posts() ) :
+			
 
 			if ( is_home() && ! is_front_page() ) :
 				?>
-				<header>
+				<header class="page-header">
 					<h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
-				</header>
+					<?php
+					$terms = mr_mam_get_terms();
+					echo '<ul class="blog-categories">';
+						foreach ($terms as $term) {
+							echo '<li class="blog-categories__item"><a href="'.get_term_link( $term ).'">'.$term->name.'</a></li>';
+						}
+					echo '</ul>';
+					?>
+				</header><!-- .page-header -->
 				<?php
 			endif;
 
