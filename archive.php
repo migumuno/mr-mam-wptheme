@@ -38,7 +38,7 @@ get_header();
 
 				<?php
 				/* Start the Loop */
-				echo '<div class="row posts-loop aire">';
+				echo '<div class="row posts-loop">';
 				while ( have_posts() ) :
 					the_post();
 
