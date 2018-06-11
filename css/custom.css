@@ -8,6 +8,9 @@ body {
 
 b, strong {
 	font-weight: bold;
+}
+
+b {
 	color: orange;
 }
 
