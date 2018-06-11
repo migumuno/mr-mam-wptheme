@@ -6,7 +6,7 @@ body {
     font-size: 1.1rem;
 }
 
-b {
+b, strong {
 	font-weight: bold;
 	color: orange;
 }
