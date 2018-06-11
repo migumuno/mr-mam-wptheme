@@ -594,7 +594,8 @@ body.single {
 
 body.blog, body.archive {
 	background-image: url(../img/blog_bg.svg);
-    background-repeat: no-repeat;
+	background-repeat: no-repeat;
+	background-size: 100% auto;
 }
 
 body.blog h1, body.archive h1 {

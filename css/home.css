@@ -165,6 +165,7 @@
 #blog {
     background-image: url(../img/blog_bg.svg);
     background-repeat: no-repeat;
+    background-size: 100% auto;
 }
 
 #blog .blog-wrapper {
