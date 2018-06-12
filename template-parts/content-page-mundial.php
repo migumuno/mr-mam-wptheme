@@ -27,6 +27,18 @@
 </section><!-- #post-<?php the_ID(); ?> -->
 <script>
     jQuery(document).ready(($) => {
+        jQuery('ul.header--teams').click(() => {
+            jQuery('html, body').animate({
+                scrollTop: jQuery('#matches').offset().top - 100
+            }, 'slow');
+        });
+
+        jQuery('button.all-matches').click(() => {
+            jQuery('html, body').animate({
+                scrollTop: jQuery('#matches').offset().top - 100
+            }, 'slow');
+        });
+
         getTeams("<?=get_stylesheet_directory_uri()?>", getMatches);
 
         try {
@@ -41,5 +53,7 @@
                 alert('Parece que hoy no hay partidos :(');
             });
         }
+
+        
     });
 </script>
