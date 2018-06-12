@@ -150,6 +150,14 @@ function mr_mam_scripts() {
 		wp_enqueue_style( 'mr-mam-slick', get_template_directory_uri() . '/libs/slick/slick.css', array(), '1.8.1' );
 		wp_enqueue_style( 'mr-mam-slick-theme', get_template_directory_uri() . '/libs/slick/slick-theme.css', array(), '1.8.1' );
 	endif;
+
+	if( is_page( 'mundial' ) ) :
+		$version = filemtime( dirname(__FILE__) . '/css/mundial.css' );
+		wp_enqueue_style( 'mr-mam-mundial', get_template_directory_uri() . '/css/mundial.css', array( 'mr-mam-custom' ), $version );
+		wp_enqueue_script( 'mr-mam-moment', get_template_directory_uri() . '/libs/moment.js', array(), '2.22.2', true );
+		$version = filemtime( dirname(__FILE__) . '/js/mundial.js' );
+		wp_enqueue_script( 'mr-mam-mundial', get_template_directory_uri() . '/js/mundial.js', array( 'mr-mam-moment' ), $version, true );
+	endif;
 }
 add_action( 'wp_enqueue_scripts', 'mr_mam_scripts' );
 
