@@ -25,6 +25,9 @@
         <div class="matches--wrapper container"></div>
     </section>
 </section><!-- #post-<?php the_ID(); ?> -->
+
+<div class="scrollToTop"><i class="fas fa-arrow-circle-up"></i></div>
+
 <script>
     jQuery(document).ready(($) => {
         jQuery('ul.header--teams').click(() => {
@@ -36,6 +39,12 @@
         jQuery('button.all-matches').click(() => {
             jQuery('html, body').animate({
                 scrollTop: jQuery('#matches').offset().top - 100
+            }, 'slow');
+        });
+
+        jQuery('.scrollToTop').click(() => {
+            jQuery('html, body').animate({
+                scrollTop: jQuery('header').offset().top - 100
             }, 'slow');
         });
 
