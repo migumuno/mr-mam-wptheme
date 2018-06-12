@@ -142,6 +142,6 @@ function printTeams(teams, path) {
     const teamsDiv = jQuery('header .header--teams');
 
     teams.forEach(team => {
-        teamsDiv.append('<li onclick="getTeams(\''+ path +'\', getMatches, false, {\'key\': \'nombre\', \'value\': \''+team.nombre+'\'});" class="header--teams__team '+ team.img +' tooltip"><img src="'+ path + '/img/equipos-mundial/' + team.img +'.png" alt="'+ team.nombre +'"><span class="tooltiptext">'+ team.nombre +'</span></li>');
+        teamsDiv.append('<li onclick="getTeams(\''+ path +'\', getMatches, false, {\'key\': \'nombre\', \'value\': \''+team.nombre+'\'});" class="header--teams__team '+ team.img +' tooltip"><img src="'+ path + '/img/equipos-mundial/' + team.img +'.png" alt="'+ team.nombre +'"><span class="hidden-xs hidden-sm hidden-md tooltiptext">'+ team.nombre +'</span></li>');
     });
 }
