@@ -46,13 +46,15 @@
 
 		// Añado animación a los clicks del menu
 		headerMenu.forEach(element => {
-			element.addEventListener('click', e => {
-				e.preventDefault();
-				let elementHref = element.hash;
-				let elementDestiny = document.querySelector(elementHref);
+			if( element.href.indexOf('#') != -1 ) {
+				element.addEventListener('click', e => {
+					e.preventDefault();
+					let elementHref = element.hash;
+					let elementDestiny = document.querySelector(elementHref);
 
-				jQuery('html, body').animate( {scrollTop: elementDestiny.offsetTop}, 600 );
-			});
+					jQuery('html, body').animate( {scrollTop: elementDestiny.offsetTop}, 600 );
+				});
+			}
 		});
 
 		welcomeBackground.style.height = welcome.offsetHeight + 'px';
