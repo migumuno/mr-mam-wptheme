@@ -592,6 +592,16 @@ body.single {
 	background-color: #efefef;
 }
 
+body.single article.post ul {
+	list-style: circle;
+}
+
+body.single article.post ul li {
+	padding: 20px 0;
+	margin-left: 20px;
+	line-height: 2rem;
+}
+
 body.blog, body.archive {
 	background-image: url(../img/blog_bg.svg);
 	background-repeat: no-repeat;
