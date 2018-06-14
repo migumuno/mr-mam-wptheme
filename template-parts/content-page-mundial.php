@@ -51,13 +51,14 @@
         getTeams("<?=get_stylesheet_directory_uri()?>", getMatches);
 
         try {
-            let todayPosition = $('.matches__date--'+ moment().format('DD') + moment().format('MM')).offset().top - 100;
             $('.today-matches').click(() => {
+                let todayPosition = $('.matches__date--'+ moment().format('DD') + moment().format('MM')).offset().top - 100;
                 $('html, body').animate({
                     scrollTop: todayPosition
                 }, 'slow');
             });
         } catch (error) {
+            console.log(error);
             $('.today-matches').click(() => {
                 alert('Parece que hoy no hay partidos :(');
             });
