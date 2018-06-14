@@ -1,6 +1,6 @@
 function getMatches(path, teams, filter) {
     moment.locale('es');
-    const json = path + '/json/mundialv1.json';
+    const json = path + '/json/mundialv2.json';
 
     const matches_json = json;
     var request = new XMLHttpRequest();
@@ -54,6 +54,16 @@ function getTeams(path, callback, print = true, filter) {
         // Llamo al callback
         callback(path, teams, filter);
     }
+}
+
+function getGroups(path, teams) {
+    const groupsDiv = jQuery('header .header--teams');
+    var groups = [];
+    groupsDiv.empty();
+
+    teams.forEach(team => {
+        groups[team.grupo] = team.nombre;
+    });
 }
 
 function printMatches(matches, path, teams) {
@@ -140,6 +150,7 @@ function printMatches(matches, path, teams) {
 
 function printTeams(teams, path) {
     const teamsDiv = jQuery('header .header--teams');
+    teamsDiv.empty();
 
     teams.forEach(team => {
         teamsDiv.append('<li onclick="getTeams(\''+ path +'\', getMatches, false, {\'key\': \'nombre\', \'value\': \''+team.nombre+'\'});" class="header--teams__team '+ team.img +' tooltip"><img src="'+ path + '/img/equipos-mundial/' + team.img +'.png" alt="'+ team.nombre +'"><span class="hidden-xs hidden-sm hidden-md tooltiptext">'+ team.nombre +'</span></li>');
