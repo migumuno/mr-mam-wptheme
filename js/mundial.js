@@ -92,7 +92,7 @@ function printMatches(matches, path, teams) {
 
         if( date === undefined || matchDate.diff(date, 'days') > 0 ) {
             date = matchDate;
-            timeline.append('<div class="matches__date"><span class="matches__date--'+ matchDate.format('DD') + matchDate.format('MM') + '">'+ matchDate.format('DD') +' de '+ matchDate.format('MMMM') +'</span></div>');
+            timeline.append('<div class="matches__date"><span class="matches__date--'+ matchDate.format('DD') + matchDate.format('MM') + '">'+ matchDate.format('dddd DD') +' de '+ matchDate.format('MMMM') +'</span></div>');
         }
         let html = '<article class="row matches__item">';
         
