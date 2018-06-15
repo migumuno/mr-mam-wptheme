@@ -19,6 +19,29 @@ b {
     color: rgb(255, 250, 197)
 }
 
+table th, table td {
+	text-align: center;
+	height: 40px;
+}
+
+table th {
+	color: rgb(255, 250, 197);
+	font-size: 0.9rem;
+}
+
+table th:first-child, table td:first-child {
+	width: 50%;
+	text-align: left;
+}
+
+table td {
+	width: calc(50% / 8);
+}
+
+table td:first-child {
+	width: 50%;
+}
+
 header {
     /*background: rgba(37,16,37,1);
     background: -moz-linear-gradient(top, rgba(37,16,37,1) 0%, rgba(66,26,56,1) 29%, rgba(95,40,62,1) 49%, rgba(124,55,73,1) 74%, rgba(147,102,78,1) 100%);
@@ -39,7 +62,12 @@ header h1 {
     padding-bottom: 50px;
 }
 
-header .today-matches {
+header .header--actions li {
+	display: inline-block;
+	margin: 10px;
+}
+
+header .header--actions button {
 	background: transparent;
 	border: 1px solid #fff;
 	color: #fff;
@@ -107,6 +135,25 @@ header ul.header--teams li img {
 	right: 10px;
 	font-size: 2rem;
 	cursor: pointer;
+}
+
+#groups table td span {
+	display: inline-block;
+	width: 10px;
+	margin-right: 10px;
+}
+
+#groups .groups--group {
+	max-width: 800px;
+	margin: auto;
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid rgb(255, 250, 197);
+}
+
+#groups .groups--group__title {
+	padding-bottom: 15px;
+	color: rgb(255, 250, 197);
 }
 
 #matches article {
@@ -239,6 +286,18 @@ header ul.header--teams li img {
 }
 
 @media (max-width: 767px) {
+
+	table th:first-child {
+		width: 30%;
+	}
+
+	table td {
+		width: calc(30% / 8);
+	}
+
+	table td:first-child {
+		width: 30%;
+	}
 
 	header {
 		padding: 0 0 20px 0;
