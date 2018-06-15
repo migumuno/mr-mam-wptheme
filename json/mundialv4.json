@@ -28,8 +28,8 @@
         "hora": "17:00",
         "grupo": "B",
         "donde": "San Petersburgo",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 0,
+        "golesE2": 1,
         "canales": "Cuatro"
     },
     {
