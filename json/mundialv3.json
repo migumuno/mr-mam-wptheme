@@ -17,8 +17,8 @@
         "hora": "14:00",
         "grupo": "A",
         "donde": "Ekaterimburgo (Ekaterimburgo Arena)",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 0,
+        "golesE2": 1,
         "canales": "Cuatro"
     },
     {
