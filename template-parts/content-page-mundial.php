@@ -20,9 +20,11 @@
                 <li class="header--actions__groups"><button class="show-groups" onclick="getTeams('<?=get_stylesheet_directory_uri()?>', getMatches, false, {'show': 'groups'});">Ver grupos</button></li>
             </ul>
             <p><img src="<?=get_stylesheet_directory_uri() . '/img/avatar.png'?>" alt="Mr. Mam" width="200px"></p>
-            <ul class="header--teams"></ul>
-            <button class="all-matches" onclick="getTeams('<?=get_stylesheet_directory_uri()?>', getMatches, false);">Ver todos</button>
-            <p><small>Info: pincha en las banderas para filtrar. Las cadenas con * están pendientes de confirmar. Horario de la península española.</small></p>
+            <div class="header--filter">
+                <ul class="header--teams"></ul>
+                <button class="all-matches" onclick="getTeams('<?=get_stylesheet_directory_uri()?>', getMatches, false);">Ver todos</button>
+                <p><small>Info: pincha en las banderas para filtrar. Las cadenas con * están pendientes de confirmar. Horario de la península española.</small></p>
+            </div>
         </div>
     </header>
     <section id="groups">
@@ -54,6 +56,8 @@
                 scrollTop: $('#groups').offset().top - 100
             }, 'slow');
             $('.today-matches').css({'display': 'block'});
+            $('.header--filter').css({'display': 'block'});
+            
         });
 
         $('button.show-groups').click(() => {
@@ -61,6 +65,7 @@
                 scrollTop: $('#groups').offset().top - 100
             }, 'slow');
             $('.today-matches').css({'display': 'none'});
+            $('.header--filter').css({'display': 'none'});
         });
 
         $('.scrollToTop').click(() => {
