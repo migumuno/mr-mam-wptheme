@@ -39,8 +39,8 @@
         "hora": "20:00",
         "grupo": "B",
         "donde": "Sochi (Estadio Fisht)",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 3,
+        "golesE2": 3,
         "canales": "TeleCinco"
     },
     {
