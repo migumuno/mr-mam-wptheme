@@ -36,7 +36,7 @@ async function getTeams(path, callback, print = true, filter) {
  */
 function getMatches(path, teams, filter) {
     moment.locale('es');
-    const json = path + '/json/mundialv5.json';
+    const json = path + '/json/mundialv6.json';
 
     const matches_json = json;
     var request = new XMLHttpRequest();
