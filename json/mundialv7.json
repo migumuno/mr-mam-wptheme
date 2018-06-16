@@ -61,8 +61,8 @@
         "hora": "15:00",
         "grupo": "D",
         "donde": "Moscú (Estadio del Spartak)",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 1,
+        "golesE2": 1,
         "canales": "Cuatro"
     },
     {
@@ -72,8 +72,8 @@
         "hora": "18:00",
         "grupo": "C",
         "donde": "Saransk (Mordovia Arena)",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 0,
+        "golesE2": 1,
         "canales": "Cuatro"
     },
     {
@@ -83,8 +83,8 @@
         "hora": "21:00",
         "grupo": "D",
         "donde": "Kaliningrado (Estadio Kaliningrado)",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 2,
+        "golesE2": 0,
         "canales": "TeleCinco"
     },
     {
