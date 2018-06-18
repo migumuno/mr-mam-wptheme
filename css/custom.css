@@ -656,10 +656,19 @@ ul.formas-de-contacto li a:hover {
 
 .mr-mam-blog-posts__post {
 	padding: 5px;
+	height: 250px;
+	overflow: hidden;
+	margin-bottom: 20px;
+	text-align: center;
 }
 
 .mr-mam-blog-posts__post img {
 	width: 100%;
+}
+
+.mr-mam-blog-posts__post--img {
+	height: 150px;
+	overflow: hidden;
 }
 
 .mr-mam-blog-posts__post h3 {

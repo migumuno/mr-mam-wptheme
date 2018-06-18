@@ -41,10 +41,14 @@ get_header();
 				echo '<div class="row posts-loop">';
 				while ( have_posts() ) :
 					the_post();
+					$title = get_the_title();
+					if(strlen(get_the_title()) > 36) {
+						$title = substr($title, 0, 36).'...';
+					}
 
 					echo '<div class="mr-mam-blog-posts__post col-xs-12 col-sm-6 col-md-4 col-lg-3">
-						'.get_the_post_thumbnail().'
-						<h3><a href="'.get_permalink().'">'.get_the_title().'</a></h3>
+						<div class="mr-mam-blog-posts__post--img">'.get_the_post_thumbnail().'</div>
+						<h3><a href="'.get_permalink().'">'.$title.'</a></h3>
 					</div>';
 
 				endwhile;
