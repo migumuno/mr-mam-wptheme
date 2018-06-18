@@ -127,8 +127,8 @@
         "hora": "14:00",
         "grupo": "F",
         "donde": "Nizhni Nóvgorod (Est. Nizhni Nóvgorod)",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 1,
+        "golesE2": 0,
         "canales": "Cuatro"
     },
     {
@@ -138,8 +138,8 @@
         "hora": "17:00",
         "grupo": "G",
         "donde": "Sochi (Estadio Fisht)",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 3,
+        "golesE2": 0,
         "canales": "Cuatro"
     },
     {
