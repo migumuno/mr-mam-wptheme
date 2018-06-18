@@ -684,7 +684,7 @@ ul.blog-categories {
 ul.blog-categories > li {
     display: inline-block;
 	padding: 10px;
-	margin: 0px 5px;
+	margin: 5px;
     background-color: darkorange;
     color: #fff;
 }
