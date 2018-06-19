@@ -149,8 +149,8 @@
         "hora": "20:00",
         "grupo": "G",
         "donde": "Volgogrado (Volgogrado Arena)",
-        "golesE1": "",
-        "golesE2": "",
+        "golesE1": 1,
+        "golesE2": 2,
         "canales": "TeleCinco"
     },
     {
