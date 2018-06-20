@@ -157,6 +157,7 @@ function mr_mam_scripts() {
 		wp_enqueue_script( 'mr-mam-moment', get_template_directory_uri() . '/libs/moment.js', array(), '2.22.2', true );
 		$version = filemtime( dirname(__FILE__) . '/js/mundial.js' );
 		wp_enqueue_script( 'mr-mam-mundial', get_template_directory_uri() . '/js/mundial.js', array( 'mr-mam-moment' ), $version, true );
+		wp_enqueue_script( 'axios', 'https://unpkg.com/axios/dist/axios.min.js' );
 	endif;
 }
 add_action( 'wp_enqueue_scripts', 'mr_mam_scripts' );

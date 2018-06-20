@@ -137,6 +137,22 @@ header ul.header--teams li img {
 	cursor: pointer;
 }
 
+.loader {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 256px;
+	height: 256px;
+	margin-left: calc(-256px/2);
+	margin-top: calc(-256px/2);
+	background-color: rgba(255, 255, 255, 0.6);
+	border-radius: 200px;
+}
+
+.loader img {
+	width: 100%;
+}
+
 #groups table td span {
 	display: inline-block;
 	width: 10px;

@@ -10,6 +10,8 @@ async function getTeams(path, callback, print = true, filter) {
     const teams_json = json;
     var request = new XMLHttpRequest();
 
+    jQuery('.loader').css({'display': 'block'});
+
     request.open( 'GET', teams_json );
     request.responseType = 'json';
     request.send();
@@ -36,7 +38,8 @@ async function getTeams(path, callback, print = true, filter) {
  */
 function getMatches(path, teams, filter) {
     moment.locale('es');
-    const json = path + '/json/mundialv10.json'; 
+    const json = path + '/json/mundialv11.json';
+    const APImatches = 'https://world-cup-json.herokuapp.com/matches';
 
     const matches_json = json;
     var request = new XMLHttpRequest();
@@ -48,30 +51,54 @@ function getMatches(path, teams, filter) {
     request.onload = () => {
         const matches = request.response;
 
-        // Compruebo si se ha pasado un filtro
-        if(filter === undefined) {
-            matchesToShow = matches;
-        } else {
-            // Si hay filtro, lo aplico para obtener los equipos a mostrar
-            matchesToShow = [];
-            matches.forEach(match => {
-                if(filter.key == 'nombre') {
-                    if(match.equipo1 == filter.value || match.equipo2 == filter.value ) {
-                        matchesToShow.push(match);
+        // Obtengo los resultados de los partidos
+        axios.get(APImatches)
+            .then( res => {
+                let html = '';
+                res.data.forEach(APImatch => {
+                    if( APImatch.status == 'in progress' || APImatch.status == 'completed' ) {
+                        // Busco el partido y le asigno el resultado
+                        for (let index = 0; index < matches.length; index++) {
+                            console.log(matches[index].code, APImatch.fifa_id);
+                            if( matches[index].code == APImatch.fifa_id ) {
+                                matches[index].golesE1 = APImatch.home_team.goals;
+                                matches[index].golesE2 = APImatch.away_team.goals;
+                            }
+                        }
+                        // console.log(`${match.away_team.country} ${match.away_team.goals} - ${match.home_team.goals} ${match.home_team.country} : "code": ${match.fifa_id}`);
                     }
+                });
+                
+                // Compruebo si se ha pasado un filtro
+                if(filter === undefined) {
+                    matchesToShow = matches;
                 } else {
-                    if(match[filter.key] == filter.value) {
-                        matchesToShow.push(match);
-                    }
+                    // Si hay filtro, lo aplico para obtener los equipos a mostrar
+                    matchesToShow = [];
+                    matches.forEach(match => {
+                        if(filter.key == 'nombre') {
+                            if(match.equipo1 == filter.value || match.equipo2 == filter.value ) {
+                                matchesToShow.push(match);
+                            }
+                        } else {
+                            if(match[filter.key] == filter.value) {
+                                matchesToShow.push(match);
+                            }
+                        }
+                    });
                 }
-            });
-        }
+        
+                if(filter !== undefined && filter.show == "groups") {
+                    getGroups(teams, matches, path);
+                } else {
+                    printMatches(matchesToShow, path, teams);
+                }
 
-        if(filter !== undefined && filter.show == "groups") {
-            getGroups(teams, matches, path);
-        } else {
-            printMatches(matchesToShow, path, teams);
-        }
+                jQuery('.loader').css({'display': 'none'});
+            })
+            .catch( err => {
+                console.log(err);
+            } );
     }
 }
 

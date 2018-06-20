@@ -36,6 +36,7 @@
 </section><!-- #post-<?php the_ID(); ?> -->
 
 <div class="scrollToTop"><i class="fas fa-arrow-circle-up"></i></div>
+<div class="loader"><img src="<?=get_stylesheet_directory_uri() . '/img/loader4.gif'?>" alt="Mr. Mam loader"></div>
 
 <script>
     jQuery(document).ready(($) => {
@@ -99,8 +100,5 @@
                 }
             });
         });
-        
-
-        
     });
 </script>

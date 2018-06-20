@@ -8,7 +8,8 @@
         "donde": "Moscú (Luzhnikí)",
         "golesE1": 5,
         "golesE2": 0,
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code": 300331503
     },
     {
         "equipo1": "Egipto",
@@ -19,7 +20,8 @@
         "donde": "Ekaterimburgo (Ekaterimburgo Arena)",
         "golesE1": 0,
         "golesE2": 1,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300353632
     },
     {
         "equipo1": "Marruecos",
@@ -30,7 +32,8 @@
         "donde": "San Petersburgo",
         "golesE1": 0,
         "golesE2": 1,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331526
     },
     {
         "equipo1": "Portugal",
@@ -41,7 +44,8 @@
         "donde": "Sochi (Estadio Fisht)",
         "golesE1": 3,
         "golesE2": 3,
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code": 300331524
     },
     {
         "equipo1": "Francia",
@@ -52,7 +56,8 @@
         "donde": "Kazán (Kazán Arena)",
         "golesE1": 2,
         "golesE2": 1,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331533
     },
     {
         "equipo1": "Argentina",
@@ -63,7 +68,8 @@
         "donde": "Moscú (Estadio del Spartak)",
         "golesE1": 1,
         "golesE2": 1,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331515
     },
     {
         "equipo1": "Perú",
@@ -74,7 +80,8 @@
         "donde": "Saransk (Mordovia Arena)",
         "golesE1": 0,
         "golesE2": 1,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331528
     },
     {
         "equipo1": "Croacia",
@@ -85,7 +92,8 @@
         "donde": "Kaliningrado (Estadio Kaliningrado)",
         "golesE1": 2,
         "golesE2": 0,
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code": 300331523
     },
     {
         "equipo1": "Costa Rica",
@@ -96,7 +104,8 @@
         "donde": "Samara (Samara Arena)",
         "golesE1": 0,
         "golesE2": 1,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331529
     },
     {
         "equipo1": "Alemania",
@@ -107,7 +116,8 @@
         "donde": "Moscú (Luzhnikí)",
         "golesE1": 0,
         "golesE2": 1,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331502
     },
     {
         "equipo1": "Brasil",
@@ -118,7 +128,8 @@
         "donde": "Rostov del Don (Rostov Arena)",
         "golesE1": 1,
         "golesE2": 1,
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code": 300331525
     },
     {
         "equipo1": "Suecia",
@@ -129,7 +140,8 @@
         "donde": "Nizhni Nóvgorod (Est. Nizhni Nóvgorod)",
         "golesE1": 1,
         "golesE2": 0,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331499
     },
     {
         "equipo1": "Bélgica",
@@ -140,7 +152,8 @@
         "donde": "Sochi (Estadio Fisht)",
         "golesE1": 3,
         "golesE2": 0,
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331539
     },
     {
         "equipo1": "Túnez",
@@ -151,7 +164,8 @@
         "donde": "Volgogrado (Volgogrado Arena)",
         "golesE1": 1,
         "golesE2": 2,
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code": 300331554
     },
     {
         "equipo1": "Colombia",
@@ -162,7 +176,8 @@
         "donde": "Saransk (Mordovia Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331550
     },
     {
         "equipo1": "Polonia",
@@ -173,7 +188,8 @@
         "donde": "Moscú (Estadio del Spartak)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code": 300331545
     },
     {
         "equipo1": "Rusia",
@@ -184,7 +200,8 @@
         "donde": "San Petersburgo (Est. San Petersburgo)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code": 300331495
     },
     {
         "equipo1": "Portugal",
@@ -195,7 +212,8 @@
         "donde": "Moscú (Estadio Luzhnikí)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331511
     },
     {
         "equipo1": "Uruguay",
@@ -206,7 +224,8 @@
         "donde": "Rostov del Don (Rostov Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331530
     },
     {
         "equipo1": "Irán",
@@ -217,7 +236,8 @@
         "donde": "Kazán (Kazán Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331496
     },
     {
         "equipo1": "Dinamarca",
@@ -228,7 +248,8 @@
         "donde": "Samara (Samara Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331518
     },
     {
         "equipo1": "Francia",
@@ -239,7 +260,8 @@
         "donde": "Ekaterimburgo (Ekaterimburgo Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331527
     },
     {
         "equipo1": "Argentina",
@@ -250,7 +272,8 @@
         "donde": "Nizhni Nóvgorod (Est. Nizhni Nóvgorod)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331513
     },
     {
         "equipo1": "Brasil",
@@ -261,7 +284,8 @@
         "donde": "San Petersburgo (Est. San Petersburgo)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331540
     },
     {
         "equipo1": "Nigeria",
@@ -272,7 +296,8 @@
         "donde": "Volgogrado (Volgogrado Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331497
     },
     {
         "equipo1": "Serbia",
@@ -283,7 +308,8 @@
         "donde": "Kaliningrado (Estadio Kaliningrado)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300340183
     },
     {
         "equipo1": "Bélgica",
@@ -294,7 +320,8 @@
         "donde": "Moscú (Estadio del Spartak)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331547
     },
     {
         "equipo1": "Corea del Sur",
@@ -305,7 +332,8 @@
         "donde": "Rostov del Don (Rostov Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331549
     },
     {
         "equipo1": "Alemania",
@@ -316,7 +344,8 @@
         "donde": "Sochi (Estadio Fisht)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331501
     },
     {
         "equipo1": "Inglaterra",
@@ -327,7 +356,8 @@
         "donde": "Nizhni Nóvgorod (Est. Nizhni Nóvgorod)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331546
     },
     {
         "equipo1": "Japón",
@@ -338,7 +368,8 @@
         "donde": "Ekaterimburgo (Ekaterimburgo Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331505
     },
     {
         "equipo1": "Polonia",
@@ -349,7 +380,8 @@
         "donde": "Kazán (Kazán Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331508
     },
     {
         "equipo1": "Uruguay",
@@ -360,7 +392,8 @@
         "donde": "Samara (Samara Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331516
     },
     {
         "equipo1": "Arabia Saudí",
@@ -371,7 +404,8 @@
         "donde": "Volgogrado (Volgogrado Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331509
     },
     {
         "equipo1": "Irán",
@@ -382,7 +416,8 @@
         "donde": "Saransk (Mordovia Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331500
     },
     {
         "equipo1": "España",
@@ -393,7 +428,8 @@
         "donde": "Kaliningrado (Estadio Kaliningrado)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300340184
     },
     {
         "equipo1": "Dinamarca",
@@ -404,7 +440,8 @@
         "donde": "Moscú (Estadio Luzhnikí)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331512
     },
     {
         "equipo1": "Australia",
@@ -415,7 +452,8 @@
         "donde": "Sochi (Estadio Fisht)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331506
     },
     {
         "equipo1": "Islandia",
@@ -426,7 +464,8 @@
         "donde": "Rostov del Don (Rostov Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331510
     },
     {
         "equipo1": "Nigeria",
@@ -437,7 +476,8 @@
         "donde": "San Petersburgo (Est. San Petersburgo)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331519
     },
     {
         "equipo1": "Corea del Sur",
@@ -448,7 +488,8 @@
         "donde": "Kazán (Kazán Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331532
     },
     {
         "equipo1": "México",
@@ -459,7 +500,8 @@
         "donde": "Ekaterimburgo (Ekaterimburgo Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331548
     },
     {
         "equipo1": "Serbia",
@@ -470,7 +512,8 @@
         "donde": "Moscú (Estadio del Spartak)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331521
     },
     {
         "equipo1": "Suiza",
@@ -481,7 +524,8 @@
         "donde": "Nizhni Nóvgorod (Est. Nizhni Nóvgorod)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331534
     },
     {
         "equipo1": "Japón",
@@ -492,7 +536,8 @@
         "donde": "Volgogrado (Volgogrado Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331507
     },
     {
         "equipo1": "Senegal",
@@ -503,7 +548,8 @@
         "donde": "Samara (Samara Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331553
     },
     {
         "equipo1": "Inglaterra",
@@ -514,7 +560,8 @@
         "donde": "Kaliningrado (Estadio Kaliningrado)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300340182
     },
     {
         "equipo1": "Panamá",
@@ -525,7 +572,8 @@
         "donde": "Saransk (Mordovia Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, BE MAD*"
+        "canales": "Cuatro*, BE MAD*",
+        "code":  300331520
     },
     {
         "equipo1": "1º Grupo C",
@@ -536,7 +584,8 @@
         "donde": "Kazán (Kazán Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331537
     },
     {
         "equipo1": "1º Grupo A",
@@ -547,7 +596,8 @@
         "donde": "Sochi (Estadio Fisht)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331544
     },
     {
         "equipo1": "1º Grupo B",
@@ -558,7 +608,8 @@
         "donde": "Moscú (Estadio Luzhnikí)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331517
     },
     {
         "equipo1": "1º Grupo D",
@@ -569,7 +620,8 @@
         "donde": "Nizhni Nóvgorod (Est. Nizhni Nóvgorod)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331498
     },
     {
         "equipo1": "1º Grupo E",
@@ -580,7 +632,8 @@
         "donde": "Samara (Samara Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro*, TeleCinco*"
+        "canales": "Cuatro*, TeleCinco*",
+        "code":  300331535
     },
     {
         "equipo1": "1º Grupo G",
@@ -591,7 +644,8 @@
         "donde": "Rostov del Don (Rostov Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331551
     },
     {
         "equipo1": "1º Grupo F",
@@ -602,7 +656,8 @@
         "donde": "San Petersburgo (Est. San Petersburgo)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331514
     },
     {
         "equipo1": "1º Grupo H",
@@ -613,7 +668,8 @@
         "donde": "Moscú (Estadio del Spartak)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331542
     },
     {
         "equipo1": "Ganador Partido 49",
@@ -624,7 +680,8 @@
         "donde": "Nizhni Nóvgorod (Est. Nizhni Nóvgorod)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331543
     },
     {
         "equipo1": "Ganador Partido 53",
@@ -635,7 +692,8 @@
         "donde": "Kazán (Kazán Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331538
     },
     {
         "equipo1": "Ganador Partido 55",
@@ -646,7 +704,8 @@
         "donde": "Samara (Samara Arena)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "Cuatro"
+        "canales": "Cuatro",
+        "code":  300331541
     },
     {
         "equipo1": "Ganador Partido 51",
@@ -657,7 +716,8 @@
         "donde": "Sochi (Estadio Fisht)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331504
     },
     {
         "equipo1": "Ganador Partido 57",
@@ -668,7 +728,8 @@
         "donde": "San Petersburgo (Est. San Petersburgo)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331531
     },
     {
         "equipo1": "Ganador Partido 59",
@@ -679,7 +740,8 @@
         "donde": "Moscú (Estadio Luzhnikí)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331522
     },
     {
         "equipo1": "Perdedor Partido 61",
@@ -690,7 +752,8 @@
         "donde": "San Petersburgo (Est. San Petersburgo)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331536
     },
     {
         "equipo1": "Ganador Partido 61",
@@ -701,6 +764,7 @@
         "donde": "Moscú (Estadio Luzhnikí)",
         "golesE1": "",
         "golesE2": "",
-        "canales": "TeleCinco"
+        "canales": "TeleCinco",
+        "code":  300331552
     }
 ]
