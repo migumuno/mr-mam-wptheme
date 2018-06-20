@@ -120,6 +120,7 @@ add_action( 'widgets_init', 'mr_mam_widgets_init' );
  * Enqueue scripts and styles.
  */
 function mr_mam_scripts() {
+
 	// Estilos principales
 	wp_enqueue_style( 'mr-mam-style', get_stylesheet_uri() );
 	$version = filemtime( dirname(__FILE__) . '/css/grid.css' );
@@ -156,7 +157,8 @@ function mr_mam_scripts() {
 		wp_enqueue_style( 'mr-mam-mundial', get_template_directory_uri() . '/css/mundial.css', array( 'mr-mam-custom' ), $version );
 		wp_enqueue_script( 'mr-mam-moment', get_template_directory_uri() . '/libs/moment.js', array(), '2.22.2', true );
 		$version = filemtime( dirname(__FILE__) . '/js/mundial.js' );
-		wp_enqueue_script( 'mr-mam-mundial', get_template_directory_uri() . '/js/mundial.js', array( 'mr-mam-moment' ), $version, true );
+		//wp_enqueue_script( 'mr-mam-mundial', get_template_directory_uri() . '/js/mundial.js', array( 'mr-mam-moment' ), $version, true );
+		wp_enqueue_script( 'mr-mam-mundial-refactor', get_template_directory_uri() . '/js/mundial_refactor.js', array( 'mr-mam-moment' ), $version, true );
 		wp_enqueue_script( 'axios', 'https://unpkg.com/axios/dist/axios.min.js' );
 	endif;
 }

@@ -78,7 +78,7 @@ header .header--actions button {
 	cursor: pointer;
 }
 
-header .all-matches {
+header .show-matches {
 	background: transparent;
 	border: 1px solid #fff;
 	color: #fff;
