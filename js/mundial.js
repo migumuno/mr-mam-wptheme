@@ -38,7 +38,7 @@ async function getTeams(path, callback, print = true, filter) {
  */
 function getMatches(path, teams, filter) {
     moment.locale('es');
-    const json = path + '/json/mundialv11.json';
+    const json = path + '/json/mundialv12.json';
     const APImatches = 'https://world-cup-json.herokuapp.com/matches';
 
     const matches_json = json;

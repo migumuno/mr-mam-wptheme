@@ -588,8 +588,8 @@
         "code":  300331537
     },
     {
-        "equipo1": "1º Grupo A",
-        "equipo2": "2º Grupo B",
+        "equipo1": "Uruguay",
+        "equipo2": "Portugal",
         "fecha": "30-06-2018",
         "hora": "20:00",
         "grupo": "Octavos",
@@ -600,8 +600,8 @@
         "code":  300331544
     },
     {
-        "equipo1": "1º Grupo B",
-        "equipo2": "2º Grupo A",
+        "equipo1": "España",
+        "equipo2": "Rusia",
         "fecha": "01-07-2018",
         "hora": "16:00",
         "grupo": "Octavos",
