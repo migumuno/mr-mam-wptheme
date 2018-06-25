@@ -55,7 +55,7 @@ async function getTeams(path) {
  * @param {array} teams
  */
 async function getMatches(path, teams) {
-    const json = path + '/json/mundialv11.json';
+    const json = path + '/json/mundialv12.json';
 
     // Get matches
     var request = await fetch(json);
