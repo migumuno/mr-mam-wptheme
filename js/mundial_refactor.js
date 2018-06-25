@@ -169,7 +169,11 @@ async function getGroups() {
 
     for(let i = 0; i < groups.length; i++) {
         groups[i].equipos.sort( (a, b) => {
-            return ( a.pts + a.dg ) < ( b.pts + b.dg );
+            if(a.pts == b.pts) {
+                return a.dg < b.dg;
+            } else {
+                return a.pts < b.pts;
+            }
         } );
     }
 }
