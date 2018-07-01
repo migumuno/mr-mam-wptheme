@@ -42,7 +42,7 @@ async function start_mundial(path) {
  * @param {object} filter 
  */
 async function getTeams(path) {
-    const json = path + '/json/equipos_mundial.json';
+    const json = path + '/json/equipos_mundialV2.json';
 
     // Get teams
     var request = await fetch(json);
@@ -72,13 +72,20 @@ async function setMatchesResults() {
     var results = await request.json();
 
     results.forEach(result => {
-        if( result.status == 'in progress' || result.status == 'completed' ) {
-            // Busco el partido y le asigno el resultado
-            for (let index = 0; index < matches.length; index++) {
-                if( matches[index].code == result.fifa_id ) {
+        // Busco el partido y le asigno el resultado y el nombre a los equipos
+        for (let index = 0; index < matches.length; index++) {
+            if( matches[index].code == result.fifa_id ) {
+                if( result.status == 'in progress' || result.status == 'completed' ) {
                     matches[index].golesE1 = result.home_team.goals;
                     matches[index].golesE2 = result.away_team.goals;
                 }
+                teams.forEach( team => {
+                    if( team.code == result.away_team.code ) {
+                        matches[index].equipo2 = team.nombre;
+                    } else if( team.code == result.home_team.code ) {
+                        matches[index].equipo1 = team.nombre;
+                    }
+                } );
             }
         }
     });
