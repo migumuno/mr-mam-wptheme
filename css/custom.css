@@ -56,6 +56,15 @@ a:hover {
     color: midnightblue;
 }
 
+article.post ul, article.post ol {
+	line-height: 1.5rem;
+	margin-left: 40px;
+}
+
+article ol {
+	list-style: decimal;
+}
+
 /*section:nth-child(odd){
 	background-color: #efefef;
 }*/
